@@ -1,0 +1,56 @@
+CATÁLOGO AUTOMÁTICO - PALACIO DE LA LIMPIEZA
+================================================
+
+1. Instalar dependencias (solo la primera vez):
+   pip install -r requirements.txt
+
+2. Editar catalogo_productos.xlsx:
+   Columnas:
+   - SKU: Código del producto (ej: 5000).
+   - Producto: Nombre que aparecerá en el PDF.
+   - Descripción: Texto descriptivo.
+   - Precio: Ingresar solo el número (ej: 4300).
+   - Imagen: (Opcional si la imagen se llama como el SKU). Ej: imagenes/5000.png
+   - Presentación: Por ejemplo "5 litros" (opcional).
+   - Fragancias: Por ejemplo "Lavanda / Pino / Floral" (opcional).
+   - URL: Solo poner el nombre del producto en la web (ej: lavandina-5-litros). El script arma el link https://www.elpalaciodelalimpieza.com.ar/lavandina-5-litros automáticamente (opcional).
+   - Oferta: Colocar "SI" para mostrar la cinta roja de ¡OFERTA! en la esquina superior de la tarjeta (opcional).
+   - PrecioAnterior: Ingresar el precio previo numérico (ej: 12500) para mostrarlo tachado en rojo con el porcentaje de ahorro (opcional e independiente de Oferta).
+   - Mostrar: "SI" para publicar / "NO" para ocultar.
+
+3. Para generar el catálogo:
+   - Haz doble clic en ejecutar_catalogo.bat (se abrirá automáticamente al terminar).
+   o ejecuta en terminal:
+   python generar_catalogo.py
+
+4. El resultado se guarda en:
+   salida/catalogo.pdf
+
+IMÁGENES AUTOMÁTICAS
+--------------------
+Si guardas la imagen en la carpeta 'imagenes' con el nombre del SKU (por ejemplo: imagenes/5000.png o 5000.jpg),
+el generador la asociará AUTOMÁTICAMENTE sin necesidad de escribir la ruta en el Excel.
+
+OPTIMIZACIÓN DE PESO
+--------------------
+Las imágenes se comprimen de forma inteligente para que el PDF resultante pese poco (ideal para enviar por WhatsApp)
+manteniendo alta nitidez.
+
+DATOS DEL COMERCIO Y WHATSAPP
+------------------------------
+En el archivo 'generar_catalogo.py' puedes configurar el teléfono de WhatsApp, dirección,
+redes sociales y horario en la sección superior para que aparezcan en el catálogo e incluyan enlaces directos.
+
+CARGA RÁPIDA DE PRODUCTOS (DESDE FOTOS)
+---------------------------------------
+Para no cargar filas a mano en el Excel:
+1. Guarda las fotos nuevas en la carpeta 'imagenes' con el SKU (ej: 5003.png, 5004.jpg).
+2. Haz doble clic en 'sincronizar_fotos.bat'.
+3. El asistente detectará las fotos nuevas y te preguntará el nombre y precio para cargarlos directo al Excel sin tener que escribir rutas a mano.
+
+PRODUCTOS POR PÁGINA (3 o 6)
+----------------------------
+En 'generar_catalogo.py' puedes elegir la variable COLUMNAS:
+- COLUMNAS = 2 (por defecto): Cuadrícula de 6 productos por página (2 columnas x 3 filas).
+- COLUMNAS = 1: Lista horizontal de 3 productos grandes por página.
+
