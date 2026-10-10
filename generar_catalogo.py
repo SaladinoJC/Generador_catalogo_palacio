@@ -31,6 +31,9 @@ WHATSAPP_TEXTO_GENERAL = "¡Hola! Quisiera hacer una consulta sobre el catálogo
 # 1 = Modo lista horizontal (3 productos por página)
 # ==============================================================================
 COLUMNAS = 2
+INCLUIR_PORTADA = True
+TITULO_PORTADA = "CATÁLOGO DE ARTÍCULOS"
+DISCLAIMER_PORTADA = "Precios del día sujetos a cambios o modificaciones"
 
 # ==============================================================================
 # RUTAS Y COLORES INSTITUCIONALES (Verde estandarizado con el fondo del logo)
@@ -38,6 +41,9 @@ COLUMNAS = 2
 BASE = Path(__file__).resolve().parent
 EXCEL = BASE / "catalogo_productos.xlsx"
 LOGO = BASE / "logo.jpg"
+PORTADIN_IMG = BASE / "portadin.png"
+CAMIONETA_IMG = BASE / "camioneta.jpg"
+PORTADA_CACHE = BASE / "salida" / "_portada_compuesta.png"
 SALIDA = BASE / "salida" / "catalogo.pdf"
 
 # Verde extraído directamente de los píxeles del logo.jpg para coincidencia 100% exacta
@@ -705,6 +711,103 @@ def draw_card_horizontal(c, p, x, y, w, h):
     link_url_new_tab(c, product_target_url, (btn_x, btn_y, btn_x + btn_w, btn_y + btn_h))
 
 
+def get_blended_cover_path():
+    """Genera o recupera de caché la portada compuesta de portadin.png con camioneta.jpg difuminada en el fondo superior."""
+    if not PORTADIN_IMG.exists():
+        return None
+    if not CAMIONETA_IMG.exists():
+        return PORTADIN_IMG
+
+    out_path = PORTADA_CACHE
+    if (out_path.exists() and
+        out_path.stat().st_mtime >= PORTADIN_IMG.stat().st_mtime and
+        out_path.stat().st_mtime >= CAMIONETA_IMG.stat().st_mtime):
+        return out_path
+
+    try:
+        port = Image.open(PORTADIN_IMG).convert("RGBA")
+        pw, ph = port.size
+
+        cam = Image.open(CAMIONETA_IMG).convert("RGBA")
+        cw, ch = cam.size
+
+        # Escalar camioneta al ancho exacto de portadin
+        scale = pw / cw
+        new_ch = int(ch * scale)
+        cam_resized = cam.resize((pw, new_ch), Image.Resampling.LANCZOS)
+
+        # Tomar la franja superior donde se aprecian las camionetas
+        offset_y = 60
+        target_h = 350
+        cam_cropped = cam_resized.crop((0, offset_y, pw, offset_y + target_h))
+
+        # Crear máscara de degradado vertical suave que se desvanece antes del logo
+        vals = []
+        for y in range(target_h):
+            if y < 100:
+                val = 230
+            elif y < 320:
+                p = (y - 100) / (320 - 100)
+                val = int(230 * (1 - p) ** 1.8)
+            else:
+                val = 0
+            vals.append(val)
+
+        grad = Image.new("L", (1, target_h))
+        grad.putdata(vals)
+        mask = grad.resize((pw, target_h), Image.Resampling.NEAREST)
+
+        cam_cropped.putalpha(mask)
+
+        res = port.copy()
+        res.alpha_composite(cam_cropped, (0, 0))
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        res.convert("RGB").save(out_path, quality=95)
+        return out_path
+    except Exception:
+        return PORTADIN_IMG
+
+
+def draw_cover(c):
+    cover_img_path = get_blended_cover_path()
+    if cover_img_path and cover_img_path.exists():
+        # Portada fiel a portadin.png con camioneta.jpg en el fondo superior
+        c.drawImage(str(cover_img_path), 0, 0, width=W, height=H)
+
+        # Disclaimer inferior integrado discretamente con tipografía cuidada
+        c.setFont("Helvetica-Bold", 9.5)
+        c.setFillColor(HexColor("#D1FAE5"))
+        c.drawCentredString(W / 2, 40, f"* {DISCLAIMER_PORTADA} *")
+        return
+
+    # Fallback si no está portadin.png (diseño institucional vectorial)
+    c.setFillColor(GREEN)
+    c.rect(0, 0, W, H, fill=1, stroke=0)
+
+    c.setStrokeColor(HexColor("#1E8552"))
+    c.setLineWidth(1.5)
+    c.roundRect(18, 18, W - 36, H - 36, 14, fill=0, stroke=1)
+
+    logo_size = 250
+    logo_x = (W - logo_size) / 2
+    logo_y = H - 340
+    if LOGO.exists():
+        c.drawImage(str(LOGO), logo_x, logo_y, width=logo_size, height=logo_size, mask="auto")
+
+    title_y = logo_y - 42
+    c.setFillColor(white)
+    c.setFont("Helvetica-Bold", 30)
+    c.drawCentredString(W / 2, title_y, TITULO_PORTADA)
+
+    c.setFont("Helvetica-Bold", 13.5)
+    c.setFillColor(HexColor("#EEF5F1"))
+    c.drawCentredString(W / 2, title_y - 38, f"{NOMBRE_COMERCIO} · Mar del Plata")
+
+    c.setFont("Helvetica-Bold", 9.5)
+    c.setFillColor(HexColor("#FEF08A"))
+    c.drawCentredString(W / 2, 55, f"* {DISCLAIMER_PORTADA} *")
+
+
 def generate():
     products = load_products()
     if not products:
@@ -728,16 +831,21 @@ def generate():
         gap = 16
         top_y = H - header_h - 18
 
-    total_pages = (len(products) + cards_per_page - 1) // cards_per_page
+    product_pages = (len(products) + cards_per_page - 1) // cards_per_page
 
     try:
         SALIDA.parent.mkdir(parents=True, exist_ok=True)
         c = canvas.Canvas(str(SALIDA), pagesize=A4)
         c.setTitle(f"Catálogo {NOMBRE_COMERCIO}")
 
+        # Portada institucional inicial
+        if INCLUIR_PORTADA:
+            draw_cover(c)
+            c.showPage()
+
         page_no = 1
         for start in range(0, len(products), cards_per_page):
-            draw_header(c, page_no, total_pages)
+            draw_header(c, page_no, product_pages)
             batch = products[start:start + cards_per_page]
 
             if COLUMNAS == 2:
@@ -771,7 +879,8 @@ def generate():
     else:
         size_str = f"{size_kb:.0f} KB"
 
-    print(f"Catálogo generado con éxito: {SALIDA} ({size_str}, {total_pages} pág{'s' if total_pages > 1 else ''})")
+    total_pdf_pages = product_pages + (1 if INCLUIR_PORTADA else 0)
+    print(f"Catálogo generado con éxito: {SALIDA} ({size_str}, {total_pdf_pages} pág{'s' if total_pdf_pages > 1 else ''})")
 
 
 if __name__ == "__main__":
