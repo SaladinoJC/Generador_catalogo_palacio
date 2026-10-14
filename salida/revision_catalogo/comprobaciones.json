@@ -1,0 +1,160 @@
+{
+  "paginas": 18,
+  "productos": 102,
+  "problemas": [
+    {
+      "sku": "100",
+      "pagina": 4,
+      "titulo_excede_ancho": [
+        [
+          "Papel Higiénico Jumbo",
+          132.04
+        ]
+      ]
+    },
+    {
+      "sku": "6211",
+      "pagina": 5,
+      "titulo_excede_ancho": [
+        [
+          "Blanca 2x300m Palacio",
+          132.07
+        ]
+      ]
+    },
+    {
+      "sku": "100280",
+      "pagina": 5,
+      "titulo_excede_ancho": [
+        [
+          "Pañuelos Descartables",
+          131.39
+        ]
+      ]
+    },
+    {
+      "sku": "470",
+      "pagina": 8,
+      "titulo_excede_ancho": [
+        [
+          "Drastik Desengrasante",
+          130.04
+        ]
+      ]
+    },
+    {
+      "sku": "1007",
+      "pagina": 10,
+      "titulo_excede_ancho": [
+        [
+          "Dove Jabón de Tocador",
+          136.03
+        ]
+      ]
+    },
+    {
+      "sku": "3807",
+      "pagina": 11,
+      "titulo_excede_ancho": [
+        [
+          "Suave Acondicionador",
+          130.03
+        ]
+      ]
+    },
+    {
+      "sku": "4399",
+      "pagina": 11,
+      "titulo_excede_ancho": [
+        [
+          "Sedal Shampoo Crema",
+          130.7
+        ],
+        [
+          "Balance Doypack 300ml",
+          136.73
+        ]
+      ]
+    },
+    {
+      "sku": "952",
+      "pagina": 12,
+      "titulo_excede_ancho": [
+        [
+          "Pantene Shampoo Rizos",
+          140.03
+        ]
+      ]
+    },
+    {
+      "sku": "1927",
+      "pagina": 12,
+      "titulo_excede_ancho": [
+        [
+          "Sedal Shampoo Sachets",
+          139.38
+        ]
+      ]
+    },
+    {
+      "sku": "2746",
+      "pagina": 12,
+      "titulo_excede_ancho": [
+        [
+          "Sachets Ceramidas x24",
+          134.06
+        ]
+      ]
+    },
+    {
+      "sku": "5487",
+      "pagina": 13,
+      "titulo_excede_ancho": [
+        [
+          "Make Esponja de Acero",
+          134.71
+        ]
+      ]
+    },
+    {
+      "sku": "55",
+      "pagina": 13,
+      "titulo_excede_ancho": [
+        [
+          "Make Guantes de Látex",
+          133.38
+        ]
+      ]
+    },
+    {
+      "sku": "100219",
+      "pagina": 16,
+      "titulo_excede_ancho": [
+        [
+          "Cesto de Residuos 65L",
+          132.04
+        ]
+      ]
+    },
+    {
+      "sku": "2687",
+      "pagina": 18,
+      "titulo_excede_ancho": [
+        [
+          "Higiénico Jumbo Acero",
+          134.03
+        ]
+      ]
+    }
+  ],
+  "recortes": [
+    {
+      "sku": "5001",
+      "campo": "descripcion"
+    }
+  ],
+  "skus_duplicados": [],
+  "skus_faltantes": [],
+  "imagenes_faltantes": [],
+  "imagenes_invalidas": []
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "sku": "5000",
+    "fila": 2,
+    "campo": "Precio",
+    "antes": 1000,
+    "despues": 4300.0
+  },
+  {
+    "sku": "5002",
+    "fila": 3,
+    "campo": "Precio",
+    "antes": 4500,
+    "despues": 4000.0
+  },
+  {
+    "sku": "6221",
+    "fila": 20,
+    "campo": "Precio",
+    "antes": 26000,
+    "despues": 25999.0
+  },
+  {
+    "sku": "3521",
+    "fila": 85,
+    "campo": "Presentación",
+    "antes": "Paquete estándar",
+    "despues": "Unidad (venta x50)"
+  },
+  {
+    "sku": "5014",
+    "fila": 86,
+    "campo": "Presentación",
+    "antes": "Paquete estándar",
+    "despues": "Unidad (venta x50)"
+  }
+]

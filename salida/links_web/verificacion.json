@@ -1,0 +1,1602 @@
+[
+  {
+    "sku": "5000",
+    "producto": "Lavandina 5 litros Palacio",
+    "url_anterior": "lavandina-5-litros",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/lavandina-5l-palacio-5000"
+    ],
+    "http": 200,
+    "sku_web": "5000",
+    "nombre_web": "Lavandina 5L-Palacio",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/lavandina-5l-palacio-5000",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/lavandina-5l-palacio-5000",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/lavandina-5l-palacio-5000",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "5002",
+    "producto": "Desodorante 5 litros Palacio",
+    "url_anterior": "desodorante-5-litros",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-lavanda-5002"
+    ],
+    "http": 200,
+    "sku_web": "5002",
+    "nombre_web": "Desodorante 5L-lavanda",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-lavanda-5002",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-lavanda-5002",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-lavanda-5002",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "5001",
+    "producto": "Detergente 5 litros Palacio",
+    "url_anterior": "detergente-5-litros",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/detergente-super-5l-5001"
+    ],
+    "http": 200,
+    "sku_web": "5001",
+    "nombre_web": "Detergente Super 5L.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/detergente-super-5l-5001",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/detergente-super-5l-5001",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/detergente-super-5l-5001",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "5459",
+    "producto": "Jabón líquido para ropa 5 litros Palacio",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/jabon-liquido-ropa-5l-palacio-5459"
+    ],
+    "http": 200,
+    "sku_web": "5459",
+    "nombre_web": "Jabon Liquido Ropa 5L-Palacio",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/jabon-liquido-ropa-5l-palacio-5459",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/jabon-liquido-ropa-5l-palacio-5459",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/jabon-liquido-ropa-5l-palacio-5459",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1044",
+    "producto": "Suavizante para ropa 5 litros Palacio",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/suavizante-palacio-5l-1044"
+    ],
+    "http": 200,
+    "sku_web": "1044",
+    "nombre_web": "Suavizante Palacio 5L.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/suavizante-palacio-5l-1044",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/suavizante-palacio-5l-1044",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/suavizante-palacio-5l-1044",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1218",
+    "producto": "Hipoclorito de sodio 5 litros Palacio",
+    "url_anterior": "hipoclorito-100-5l-palacio-1218",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/hipoclorito-100-5l-palacio-1218"
+    ],
+    "http": 200,
+    "sku_web": "1218",
+    "nombre_web": "Hipoclorito 100% 5L-Palacio",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/hipoclorito-100-5l-palacio-1218",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/hipoclorito-100-5l-palacio-1218",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/hipoclorito-100-5l-palacio-1218",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "10109",
+    "producto": "Zelnova Desinfectante Viricida 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/zelnova-desinfectante-5l-viricida-10109"
+    ],
+    "http": 200,
+    "sku_web": "10109",
+    "nombre_web": "Zelnova desinfectante 5L-viricida",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/zelnova-desinfectante-5l-viricida-10109",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/zelnova-desinfectante-5l-viricida-10109",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-desinfectante-5l-viricida-10109",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2907",
+    "producto": "Zelnova Remocer Desengrasante 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/zelnova-remocer-5l-2907"
+    ],
+    "http": 200,
+    "sku_web": "2907",
+    "nombre_web": "Zelnova Remocer 5L.limp.desengrasante total",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/zelnova-remocer-5l-2907",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/zelnova-remocer-5l-2907",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-remocer-5l-2907",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2910",
+    "producto": "Zelnova Cera Autobrillante Incolora 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/zelnova-autobrillo-5l-incoloro-2910"
+    ],
+    "http": 200,
+    "sku_web": "2910",
+    "nombre_web": "Zelnova Autobrillo 5L.incoloro",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/zelnova-autobrillo-5l-incoloro-2910",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/zelnova-autobrillo-5l-incoloro-2910",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-autobrillo-5l-incoloro-2910",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2913",
+    "producto": "Zelnova Acondicionador de Pisos 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/zelnova-acondicionador-piso-5l-2913"
+    ],
+    "http": 200,
+    "sku_web": "2913",
+    "nombre_web": "Remocer-Zelnova Acondicionador piso 5L.t-Echo",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/zelnova-acondicionador-piso-5l-2913",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/zelnova-acondicionador-piso-5l-2913",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-acondicionador-piso-5l-2913",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3510",
+    "producto": "Zelnova Quitasarro Desincrustante 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/zelnova-quitasarro-5l-3510"
+    ],
+    "http": 200,
+    "sku_web": "3510",
+    "nombre_web": "Zelnova Quitasarro 5L.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/zelnova-quitasarro-5l-3510",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/zelnova-quitasarro-5l-3510",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-quitasarro-5l-3510",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2916",
+    "producto": "Zelnova Limpiavidrios 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/zelnova-vidrios-5l-2916"
+    ],
+    "http": 200,
+    "sku_web": "2916",
+    "nombre_web": "Zelnova Vidrios 5L.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/zelnova-vidrios-5l-2916",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/zelnova-vidrios-5l-2916",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-vidrios-5l-2916",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "4815",
+    "producto": "Campanita Rollo Cocina Classic x3",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/campanita-rollox3-classic-50p-promo-4815"
+    ],
+    "http": 200,
+    "sku_web": "4815",
+    "nombre_web": "Campanita Rollox3-classic50p",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/campanita-rollox3-classic-50p-promo-4815",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/campanita-rollox3-classic-50p-promo-4815",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/campanita-rollox3-classic-50p-promo-4815",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2800",
+    "producto": "Campanita Practirollo 200 Paños",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/campanita-rollo-200pa-os-x1-practirollo-promo-2800"
+    ],
+    "http": 200,
+    "sku_web": "2800",
+    "nombre_web": "Campanita Rollo 200panos x1practirollopromo",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/campanita-rollo-200pa-os-x1-practirollo-promo-2800",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/campanita-rollo-200pa-os-x1-practirollo-promo-2800",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/campanita-rollo-200pa-os-x1-practirollo-promo-2800",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "4851",
+    "producto": "Campanita Soft Papel Higiénico x4",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-campanita-soft-x4-30m-promo-4851"
+    ],
+    "http": 200,
+    "sku_web": "4851",
+    "nombre_web": "Papel Higienico Campanita Soft x4 30mpromo",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-campanita-soft-x4-30m-promo-4851",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-campanita-soft-x4-30m-promo-4851",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-campanita-soft-x4-30m-promo-4851",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3138",
+    "producto": "Higienol Doble Hoja Plus x4",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-higienol-d-hoja-30m-x4-plus-3138"
+    ],
+    "http": 200,
+    "sku_web": "3138",
+    "nombre_web": "Papel Higienico Higienol d-hoja 30m.x4-plus",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-higienol-d-hoja-30m-x4-plus-3138",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-higienol-d-hoja-30m-x4-plus-3138",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-higienol-d-hoja-30m-x4-plus-3138",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2164",
+    "producto": "Campanita Toalla Intercalada Blanca x2500",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-premium-x2500-20x24cm-intercaladas-2164"
+    ],
+    "http": 200,
+    "sku_web": "2164",
+    "nombre_web": "Toalla blanca premium x2500-20x24cm.Campanita",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-premium-x2500-20x24cm-intercaladas-2164",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-premium-x2500-20x24cm-intercaladas-2164",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-premium-x2500-20x24cm-intercaladas-2164",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "100",
+    "producto": "Papel Higiénico Jumbo 8x300m Palacio",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-8x300m-cono-chico-palacio-100"
+    ],
+    "http": 200,
+    "sku_web": "100",
+    "nombre_web": "Papel Higienico 8x300m.cono chico-Palacio-High",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-8x300m-cono-chico-palacio-100",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-8x300m-cono-chico-palacio-100",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-8x300m-cono-chico-palacio-100",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "6221",
+    "producto": "Toalla Intercalada Blanca Ecco x2500",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-ecco-x2500-18-4x24cm-6221"
+    ],
+    "http": 200,
+    "sku_web": "6221",
+    "nombre_web": "Toalla blanca Ecco x2500-18.4x24cm.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-ecco-x2500-18-4x24cm-6221",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-ecco-x2500-18-4x24cm-6221",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-ecco-x2500-18-4x24cm-6221",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "6211",
+    "producto": "Toalla en Rollo Blanca 2x300m Palacio",
+    "url_anterior": "",
+    "candidatas": [],
+    "estado": "pendiente",
+    "motivo": "Sin URL para el SKU en el sitemap"
+  },
+  {
+    "sku": "100280",
+    "producto": "Elite / Carilina Pañuelos Descartables",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/elite-pa-uelos-x6-paquetes-100280"
+    ],
+    "http": 200,
+    "sku_web": "100280",
+    "nombre_web": "Carilina-Elite Panuelos x6 Paquetes x10u.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/elite-pa-uelos-x6-paquetes-100280",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/elite-pa-uelos-x6-paquetes-100280",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/elite-pa-uelos-x6-paquetes-100280",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2226",
+    "producto": "Elite Pañuelos Descartables Caja x75",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/elite-pa-uelos-x75-caja-2226"
+    ],
+    "http": 200,
+    "sku_web": "2226",
+    "nombre_web": "Elite Panuelos x75-Caja",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/elite-pa-uelos-x75-caja-2226",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/elite-pa-uelos-x75-caja-2226",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/elite-pa-uelos-x75-caja-2226",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "639",
+    "producto": "Trapo de Piso Gris XG Media Naranja",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/media-naranja-trapo-de-piso-gris-xg-60x80cm-639"
+    ],
+    "http": 200,
+    "sku_web": "639",
+    "nombre_web": "Media Naranja  Trapo de Piso Gris XG 60x80cm.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/media-naranja-trapo-de-piso-gris-xg-60x80cm-639",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/media-naranja-trapo-de-piso-gris-xg-60x80cm-639",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/media-naranja-trapo-de-piso-gris-xg-60x80cm-639",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "674",
+    "producto": "Ballerina Paños Multiuso x3",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/ballerina-pa-o-multiuso-x3-674"
+    ],
+    "http": 200,
+    "sku_web": "674",
+    "nombre_web": "Ballerina Pano Multiuso x3",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/ballerina-pa-o-multiuso-x3-674",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/ballerina-pa-o-multiuso-x3-674",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/ballerina-pa-o-multiuso-x3-674",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2444",
+    "producto": "Ayudín Lavandina Común 2 Litros",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-clasica-2l-35g-2444"
+    ],
+    "http": 200,
+    "sku_web": "2444",
+    "nombre_web": "Ayudin Lavandina Original 2L.25g.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-clasica-2l-35g-2444",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-clasica-2l-35g-2444",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-clasica-2l-35g-2444",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "48",
+    "producto": "Ayudín Lavandina Común 1 Litro",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-original-1l-25g-promo-48"
+    ],
+    "http": 200,
+    "sku_web": "48",
+    "nombre_web": "Ayudin Lavandina Original 1L.25g.-PROMO",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-original-1l-25g-promo-48",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-original-1l-25g-promo-48",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-original-1l-25g-promo-48",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "4590",
+    "producto": "Biokitol Insecticida Desinfectante 1L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/biokitol-1l-4590"
+    ],
+    "http": 200,
+    "sku_web": "4590",
+    "nombre_web": "BIOKITOL 1L.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/biokitol-1l-4590",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/biokitol-1l-4590",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/biokitol-1l-4590",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "4429",
+    "producto": "Ayudín Lavandina en Gel 700ml",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-gel-700ml-original-4429"
+    ],
+    "http": 200,
+    "sku_web": "4429",
+    "nombre_web": "Ayudin Lavandina Gel 700ml-Original-PROMO",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-gel-700ml-original-4429",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-gel-700ml-original-4429",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-gel-700ml-original-4429",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "158",
+    "producto": "Blem Lustramuebles Aero",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/blem-aero-360-marron-158"
+    ],
+    "http": 200,
+    "sku_web": "158",
+    "nombre_web": "Blem  Aero 360-Marron",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/blem-aero-360-marron-158",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/blem-aero-360-marron-158",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/blem-aero-360-marron-158",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "424",
+    "producto": "Lysoform Aero",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/lysoform-aero-360-380-original-424"
+    ],
+    "http": 200,
+    "sku_web": "424",
+    "nombre_web": "Lysoform Aero 360-380-Original",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/lysoform-aero-360-380-original-424",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/lysoform-aero-360-380-original-424",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/lysoform-aero-360-380-original-424",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "602",
+    "producto": "Raid Insecticida Mosquitos Azul",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/raid-aero-azul-mosquitos-602"
+    ],
+    "http": 200,
+    "sku_web": "602",
+    "nombre_web": "Raid Aero Azul Mosquitos 360cc.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/raid-aero-azul-mosquitos-602",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/raid-aero-azul-mosquitos-602",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/raid-aero-azul-mosquitos-602",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "611",
+    "producto": "Off Repelente de Insectos Naranja",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/off-aero-naranja-165-170cc-611"
+    ],
+    "http": 200,
+    "sku_web": "611",
+    "nombre_web": "Off Aero Naranja 165-170cc.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/off-aero-naranja-165-170cc-611",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/off-aero-naranja-165-170cc-611",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/off-aero-naranja-165-170cc-611",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2485",
+    "producto": "Make Aromatizante de Ambiente Cítrico",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/make-aromatizante-aero-citrico-2485"
+    ],
+    "http": 200,
+    "sku_web": "2485",
+    "nombre_web": "Make Aromatizante Aero citrico",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/make-aromatizante-aero-citrico-2485",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/make-aromatizante-aero-citrico-2485",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/make-aromatizante-aero-citrico-2485",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "103",
+    "producto": "Mr Músculo Limpia Horno Aerosol",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/mister-musculo-horno-aero-400cc-103"
+    ],
+    "http": 200,
+    "sku_web": "103",
+    "nombre_web": "Mister Musculo Limpia Hornos Aero 360cc",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/mister-musculo-horno-aero-400cc-103",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/mister-musculo-horno-aero-400cc-103",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/mister-musculo-horno-aero-400cc-103",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "4100",
+    "producto": "Magistral Detergente Limón 750ml",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/magistral-750-limon-4100"
+    ],
+    "http": 200,
+    "sku_web": "4100",
+    "nombre_web": "Magistral 750-Limon",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/magistral-750-limon-4100",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/magistral-750-limon-4100",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/magistral-750-limon-4100",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "37",
+    "producto": "Cif Active Gel Detergente Limón 750ml",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/cif-detergente-750-limon-37"
+    ],
+    "http": 200,
+    "sku_web": "37",
+    "nombre_web": "Cif Detergente 750-limon",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/cif-detergente-750-limon-37",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/cif-detergente-750-limon-37",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/cif-detergente-750-limon-37",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "261",
+    "producto": "Cif Antigrasa Doypack 450ml",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/cif-antigrasa-450-d-pack-261"
+    ],
+    "http": 200,
+    "sku_web": "261",
+    "nombre_web": "Cif Antigrasa 450-d-pack",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/cif-antigrasa-450-d-pack-261",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/cif-antigrasa-450-d-pack-261",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/cif-antigrasa-450-d-pack-261",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3329",
+    "producto": "Cif Detergente Neutro Institucional 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/cif-detergente-5l-neutro-3329"
+    ],
+    "http": 200,
+    "sku_web": "3329",
+    "nombre_web": "Cif Detergente 5L-Neutro",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/cif-detergente-5l-neutro-3329",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/cif-detergente-5l-neutro-3329",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/cif-detergente-5l-neutro-3329",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "5176",
+    "producto": "Cif Vidrios Institucional 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/cif-vidrios-5l-5176"
+    ],
+    "http": 200,
+    "sku_web": "5176",
+    "nombre_web": "Cif Vidrios 5L.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/cif-vidrios-5l-5176",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/cif-vidrios-5l-5176",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/cif-vidrios-5l-5176",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "100147",
+    "producto": "Cif Crema Limpiador Multiuso 2L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/cif-crema-2l-3k-100147"
+    ],
+    "http": 200,
+    "sku_web": "100147",
+    "nombre_web": "Cif Crema 2L.3K",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/cif-crema-2l-3k-100147",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/cif-crema-2l-3k-100147",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/cif-crema-2l-3k-100147",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1130",
+    "producto": "8M Cera Líquida Express Incolora 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/8m-5l-express-incoloro-1130"
+    ],
+    "http": 200,
+    "sku_web": "1130",
+    "nombre_web": "8M 5L.Express-Incoloro",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/8m-5l-express-incoloro-1130",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/8m-5l-express-incoloro-1130",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/8m-5l-express-incoloro-1130",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "470",
+    "producto": "Drastik Desengrasante Concentrado 500cc",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/drastik-500cc-470"
+    ],
+    "http": 200,
+    "sku_web": "470",
+    "nombre_web": "DRASTIK 500cc",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/drastik-500cc-470",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/drastik-500cc-470",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/drastik-500cc-470",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3128",
+    "producto": "Skip Jabón Líquido Doypack 3L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/skip-liquido-3l-d-p-30-lavados-3128"
+    ],
+    "http": 200,
+    "sku_web": "3128",
+    "nombre_web": "Skip P Liquido 3L.d-p-30 lavados",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/skip-liquido-3l-d-p-30-lavados-3128",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/skip-liquido-3l-d-p-30-lavados-3128",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/skip-liquido-3l-d-p-30-lavados-3128",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "26",
+    "producto": "Ala Jabón Líquido Clásico Doypack 3L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/ala-jabon-liquido-3l-clasico-d-pack-26"
+    ],
+    "http": 200,
+    "sku_web": "26",
+    "nombre_web": "Ala Jabon Liquido 3L.Clasico d-pack-PROMO",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/ala-jabon-liquido-3l-clasico-d-pack-26",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/ala-jabon-liquido-3l-clasico-d-pack-26",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/ala-jabon-liquido-3l-clasico-d-pack-26",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3069",
+    "producto": "Granby Jabón Líquido Rosas Doypack 3L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/granby-liq-ropa-3l-d-p-rosas-3069"
+    ],
+    "http": 200,
+    "sku_web": "3069",
+    "nombre_web": "Granby Liq.Ropa 3L.d-p.Rosas",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/granby-liq-ropa-3l-d-p-rosas-3069",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/granby-liq-ropa-3l-d-p-rosas-3069",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/granby-liq-ropa-3l-d-p-rosas-3069",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1660",
+    "producto": "Ariel Platinum Jabón Líquido Pouch 3L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/ariel-liq-2-7l-pouch-maxima-limpieza-1660"
+    ],
+    "http": 200,
+    "sku_web": "1660",
+    "nombre_web": "Ariel Liq.3L.Pouch-Platinum",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/ariel-liq-2-7l-pouch-maxima-limpieza-1660",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/ariel-liq-2-7l-pouch-maxima-limpieza-1660",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/ariel-liq-2-7l-pouch-maxima-limpieza-1660",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2111",
+    "producto": "Vivere Suavizante Clásico Doypack 3L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/vivere-3l-clasico-d-pack-2111"
+    ],
+    "http": 200,
+    "sku_web": "2111",
+    "nombre_web": "Vivere 3L.Clasico-d-pack",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/vivere-3l-clasico-d-pack-2111",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/vivere-3l-clasico-d-pack-2111",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/vivere-3l-clasico-d-pack-2111",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2110",
+    "producto": "Comfort Suavizante Classic Doypack 3L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/comfort-3l-classic-d-pack-2110"
+    ],
+    "http": 200,
+    "sku_web": "2110",
+    "nombre_web": "Comfort 3L-classic-d-pack",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/comfort-3l-classic-d-pack-2110",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/comfort-3l-classic-d-pack-2110",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/comfort-3l-classic-d-pack-2110",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1353",
+    "producto": "Downy Suavizante Brisa Suave 1L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/downy-suavizante-1l-brisa-verano-1353"
+    ],
+    "http": 200,
+    "sku_web": "1353",
+    "nombre_web": "Downy Suavizante 1L-Brisa suave",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/downy-suavizante-1l-brisa-verano-1353",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/downy-suavizante-1l-brisa-verano-1353",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/downy-suavizante-1l-brisa-verano-1353",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1007",
+    "producto": "Dove Jabón de Tocador Original 90g",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dove-jabon-90g-clasico-pc-1007"
+    ],
+    "http": 200,
+    "sku_web": "1007",
+    "nombre_web": "Dove  Jabon 90g.original-PROMO",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dove-jabon-90g-clasico-pc-1007",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dove-jabon-90g-clasico-pc-1007",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dove-jabon-90g-clasico-pc-1007",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "10244",
+    "producto": "Dove Jabón Líquido Manos Doypack 220ml",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dove-jabon-liq-220-rep-nutricion-profunda-10244"
+    ],
+    "http": 200,
+    "sku_web": "10244",
+    "nombre_web": "Dove Jabon liq.220-Rep.nutricion profunda",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dove-jabon-liq-220-rep-nutricion-profunda-10244",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dove-jabon-liq-220-rep-nutricion-profunda-10244",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dove-jabon-liq-220-rep-nutricion-profunda-10244",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1587",
+    "producto": "Rexona Jabón Líquido Antibacterial 250ml",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/rexona-jabon-liq-antib-250-full-aloe-1587"
+    ],
+    "http": 200,
+    "sku_web": "1587",
+    "nombre_web": "Rexona Jabon liq.antib.250-Full Aloe-fresh",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/rexona-jabon-liq-antib-250-full-aloe-1587",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/rexona-jabon-liq-antib-250-full-aloe-1587",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/rexona-jabon-liq-antib-250-full-aloe-1587",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "112",
+    "producto": "Segovia Pastillas para Mingitorio 200g",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/bolitas-mingitorio-200g-112"
+    ],
+    "http": 200,
+    "sku_web": "112",
+    "nombre_web": "Bolitas Mingitorio 200g.Segovia",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/bolitas-mingitorio-200g-112",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/bolitas-mingitorio-200g-112",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/bolitas-mingitorio-200g-112",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2845",
+    "producto": "Duke Jabón Hotelero Envuelto 20g x240",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/duke-hotel-20g-x240-envuelto-2845"
+    ],
+    "http": 200,
+    "sku_web": "2845",
+    "nombre_web": "Duke Hotel 20g.x240-envuelto",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/duke-hotel-20g-x240-envuelto-2845",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/duke-hotel-20g-x240-envuelto-2845",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/duke-hotel-20g-x240-envuelto-2845",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "5400",
+    "producto": "Suave Shampoo Nutrición Coco 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/p-allen-sh-930-rosa-mosqueta"
+    ],
+    "http": 200,
+    "sku_web": "5400",
+    "nombre_web": "Suave Sh.5L.crema nutricioncoco-proteina",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/p-allen-sh-930-rosa-mosqueta",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/p-allen-sh-930-rosa-mosqueta",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/p-allen-sh-930-rosa-mosqueta",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3807",
+    "producto": "Suave Acondicionador Nutrición Coco 5L",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/p-allen-sh-960-guarana"
+    ],
+    "http": 200,
+    "sku_web": "3807",
+    "nombre_web": "Suave Acond.5L.crema nutricioncoco-proteina",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/p-allen-sh-960-guarana",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/p-allen-sh-960-guarana",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/p-allen-sh-960-guarana",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "4399",
+    "producto": "Sedal Shampoo Crema Balance Doypack 300ml",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/sedal-shampoo-300-d-p-crema-balance-4399"
+    ],
+    "http": 200,
+    "sku_web": "4399",
+    "nombre_web": "Sedal Shampoo 300 d-p-Crema balance",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/sedal-shampoo-300-d-p-crema-balance-4399",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/sedal-shampoo-300-d-p-crema-balance-4399",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/sedal-shampoo-300-d-p-crema-balance-4399",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1000013",
+    "producto": "Sedal Acondicionador Crema Balance 300ml",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/sedal-acondicionador-300-d-p-crema-balance-1000013"
+    ],
+    "http": 200,
+    "sku_web": "1000013",
+    "nombre_web": "Sedal Acondicionador 300 d-p.crema balance",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/sedal-acondicionador-300-d-p-crema-balance-1000013",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/sedal-acondicionador-300-d-p-crema-balance-1000013",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/sedal-acondicionador-300-d-p-crema-balance-1000013",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "6646",
+    "producto": "Dove Shampoo Reconstrucción Doypack 180ml",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dove-shampoo-180-d-p-cabello-da-ado-6646"
+    ],
+    "http": 200,
+    "sku_web": "6646",
+    "nombre_web": "Dove  Shampoo 180 d-p-reconstruccion completa",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dove-shampoo-180-d-p-cabello-da-ado-6646",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dove-shampoo-180-d-p-cabello-da-ado-6646",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dove-shampoo-180-d-p-cabello-da-ado-6646",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "6645",
+    "producto": "Dove Acondicionador Reconstrucción 180ml",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dove-acondicionador-180-d-p-cabello-da-ado-6645"
+    ],
+    "http": 200,
+    "sku_web": "6645",
+    "nombre_web": "Dove  Acondicionador 180 d-p-reconstruccion completa",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dove-acondicionador-180-d-p-cabello-da-ado-6645",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dove-acondicionador-180-d-p-cabello-da-ado-6645",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dove-acondicionador-180-d-p-cabello-da-ado-6645",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "952",
+    "producto": "Pantene Shampoo Rizos Definidos 400ml",
+    "url_anterior": "",
+    "candidatas": [],
+    "estado": "pendiente",
+    "motivo": "Sin URL para el SKU en el sitemap"
+  },
+  {
+    "sku": "100130",
+    "producto": "Pantene Acondicionador Rizos Definidos 400ml",
+    "url_anterior": "",
+    "candidatas": [],
+    "estado": "pendiente",
+    "motivo": "Sin URL para el SKU en el sitemap"
+  },
+  {
+    "sku": "1927",
+    "producto": "Sedal Shampoo Sachets Ceramidas x24",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/sedal-shampoo-sachet-x24-ceramidas-1927"
+    ],
+    "http": 200,
+    "sku_web": "1927",
+    "nombre_web": "Sedal Shampoo sachet x24-ceramidas",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/sedal-shampoo-sachet-x24-ceramidas-1927",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/sedal-shampoo-sachet-x24-ceramidas-1927",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/sedal-shampoo-sachet-x24-ceramidas-1927",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2746",
+    "producto": "Sedal Acondicionador Sachets Ceramidas x24",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/sedal-acondicionador-sachetx24-ceramidas-2746"
+    ],
+    "http": 200,
+    "sku_web": "2746",
+    "nombre_web": "Sedal Acondicionador sachetx24-ceramidas",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/sedal-acondicionador-sachetx24-ceramidas-2746",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/sedal-acondicionador-sachetx24-ceramidas-2746",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/sedal-acondicionador-sachetx24-ceramidas-2746",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "10090",
+    "producto": "Franela Clásica Media Naranja",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/franela-clasica-media-naranja-10090"
+    ],
+    "http": 200,
+    "sku_web": "10090",
+    "nombre_web": "Franela Clasica Media Naranja",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/franela-clasica-media-naranja-10090",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/franela-clasica-media-naranja-10090",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/franela-clasica-media-naranja-10090",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "751",
+    "producto": "Fibra Verde Abrasiva 3M 12x16cm",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/fibra-verde-3m-normal-12x16cm-granel-751"
+    ],
+    "http": 200,
+    "sku_web": "751",
+    "nombre_web": "Fibra Verde 3M Normal 12x16cm-granel normal",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/fibra-verde-3m-normal-12x16cm-granel-751",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/fibra-verde-3m-normal-12x16cm-granel-751",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/fibra-verde-3m-normal-12x16cm-granel-751",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "538",
+    "producto": "Mortimer Esponja Cuadriculada",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/mortimer-cuadriculada-clasica-538"
+    ],
+    "http": 200,
+    "sku_web": "538",
+    "nombre_web": "Mortimer Cuadriculada esponja",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/mortimer-cuadriculada-clasica-538",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/mortimer-cuadriculada-clasica-538",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/mortimer-cuadriculada-clasica-538",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1561",
+    "producto": "Mortimer Esponja Doble Cara",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/mortimer-esp-doble-cara-1561"
+    ],
+    "http": 200,
+    "sku_web": "1561",
+    "nombre_web": "Mortimer Esp.Doble Cara",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/mortimer-esp-doble-cara-1561",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/mortimer-esp-doble-cara-1561",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/mortimer-esp-doble-cara-1561",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "5487",
+    "producto": "Make Esponja de Acero Inoxidable 50g",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/make-esponja-inoxidable-50g-5487"
+    ],
+    "http": 200,
+    "sku_web": "5487",
+    "nombre_web": "Make Esponja Inoxidable 50g.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/make-esponja-inoxidable-50g-5487",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/make-esponja-inoxidable-50g-5487",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/make-esponja-inoxidable-50g-5487",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "524",
+    "producto": "Virulana Rollitos Lana de Acero x10",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/virulana-rollitos-x10-70g-524"
+    ],
+    "http": 200,
+    "sku_web": "524",
+    "nombre_web": "Virulana Rollitos x10-70g.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/virulana-rollitos-x10-70g-524",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/virulana-rollitos-x10-70g-524",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/virulana-rollitos-x10-70g-524",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "55",
+    "producto": "Make Guantes de Látex Soft Mediano",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/make-guante-soft-mediano-55"
+    ],
+    "http": 200,
+    "sku_web": "55",
+    "nombre_web": "Make Guante Soft-Mediano",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/make-guante-soft-mediano-55",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/make-guante-soft-mediano-55",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/make-guante-soft-mediano-55",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "733",
+    "producto": "MAPA Guantes Plissé Talle 7½-8",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/mapa-guantes-plisse-7-8-med-733"
+    ],
+    "http": 200,
+    "sku_web": "733",
+    "nombre_web": "MAPA Guantes Plisse 7A 1-2 -8 Med.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/mapa-guantes-plisse-7-8-med-733",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/mapa-guantes-plisse-7-8-med-733",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/mapa-guantes-plisse-7-8-med-733",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3269",
+    "producto": "Plumita Guantes de Limpieza Mediano",
+    "url_anterior": "",
+    "candidatas": [],
+    "estado": "pendiente",
+    "motivo": "Sin URL para el SKU en el sitemap"
+  },
+  {
+    "sku": "1758",
+    "producto": "Balde Plástico 12 Litros Romyl",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/balde-12l-romyl-task-1758"
+    ],
+    "http": 200,
+    "sku_web": "1758",
+    "nombre_web": "Balde 12L Romyl",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/balde-12l-romyl-task-1758",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/balde-12l-romyl-task-1758",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/balde-12l-romyl-task-1758",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "4264",
+    "producto": "Trapo de Piso Julieta Gris 50x60cm",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/trapo-de-piso-julieta-gris-50x60cm-4264"
+    ],
+    "http": 200,
+    "sku_web": "4264",
+    "nombre_web": "Trapo de Piso Julieta Gris 50x60cm.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/trapo-de-piso-julieta-gris-50x60cm-4264",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/trapo-de-piso-julieta-gris-50x60cm-4264",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/trapo-de-piso-julieta-gris-50x60cm-4264",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2399",
+    "producto": "Rejilla de Cocina Pesada Palacio 35x40cm",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/rejilla-palacio-pesada-35x40cm-2399"
+    ],
+    "http": 200,
+    "sku_web": "2399",
+    "nombre_web": "Rejilla Palacio Pesada 35x40cm.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/rejilla-palacio-pesada-35x40cm-2399",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/rejilla-palacio-pesada-35x40cm-2399",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/rejilla-palacio-pesada-35x40cm-2399",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1451",
+    "producto": "Escobillón Príncipe Max Cariño",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/escobillon-principemax-cari-o-1451"
+    ],
+    "http": 200,
+    "sku_web": "1451",
+    "nombre_web": "Escobillon PrincipeMax-Carino",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/escobillon-principemax-cari-o-1451",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/escobillon-principemax-cari-o-1451",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/escobillon-principemax-cari-o-1451",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1440",
+    "producto": "Escobillón Recto Color Nº1 Romyl",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/escobillon-plast-recto-color-nao1-romyl-1440"
+    ],
+    "http": 200,
+    "sku_web": "1440",
+    "nombre_web": "Escobillon Plast.Recto Color NAo1-Romyl",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/escobillon-plast-recto-color-nao1-romyl-1440",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/escobillon-plast-recto-color-nao1-romyl-1440",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/escobillon-plast-recto-color-nao1-romyl-1440",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2634",
+    "producto": "Cepillo Barrendero Andén 100cm Cariño",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/anden-barrendero-100-cari-o-madera-2634"
+    ],
+    "http": 200,
+    "sku_web": "2634",
+    "nombre_web": "Anden Barrendero 100-Carinomadera",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/anden-barrendero-100-cari-o-madera-2634",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/anden-barrendero-100-cari-o-madera-2634",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/anden-barrendero-100-cari-o-madera-2634",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "832",
+    "producto": "Cepillo Andén de Cerda 80cm",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/anden-cerda-80cm-832"
+    ],
+    "http": 200,
+    "sku_web": "832",
+    "nombre_web": "Anden Cerda 80cm",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/anden-cerda-80cm-832",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/anden-cerda-80cm-832",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/anden-cerda-80cm-832",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "71",
+    "producto": "Cabo de Madera con Rosca 1.30m",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-30-c-rosca-71"
+    ],
+    "http": 200,
+    "sku_web": "71",
+    "nombre_web": "Cabo Madera 1.30 C-rosca-Pino",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-30-c-rosca-71",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-30-c-rosca-71",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-30-c-rosca-71",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "1934",
+    "producto": "Cabo de Madera Reforzado 1.50m",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-50m-natural-1934"
+    ],
+    "http": 200,
+    "sku_web": "1934",
+    "nombre_web": "Cabo Madera 1.50m.c-rosca",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-50m-natural-1934",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-50m-natural-1934",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-50m-natural-1934",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2652",
+    "producto": "Bolsas para Residuos Force 45x60cm",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/bolsas-45x60x30-negras-force-funda-2652"
+    ],
+    "http": 200,
+    "sku_web": "2652",
+    "nombre_web": "Bolsas 45x60x30-negra Force-fundareforz.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/bolsas-45x60x30-negras-force-funda-2652",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/bolsas-45x60x30-negras-force-funda-2652",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/bolsas-45x60x30-negras-force-funda-2652",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3521",
+    "producto": "Bolsas Consorcio Verdes 70x100cm",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-verdes-3521"
+    ],
+    "http": 200,
+    "sku_web": "3521",
+    "nombre_web": "Bolsas 70x100 Verdes",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-verdes-3521",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-verdes-3521",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-verdes-3521",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "5014",
+    "producto": "Bolsas Consorcio Negras Reforzadas 70x100",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-negras-5014"
+    ],
+    "http": 200,
+    "sku_web": "5014",
+    "nombre_web": "BOLSAS 70x100-Negras reforzadas",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-negras-5014",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-negras-5014",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-negras-5014",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "100219",
+    "producto": "Cesto de Residuos 65L con Tapa Busgran",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/recipiente-residuos-65l-c-tapa-busgrandph-pesado-100219"
+    ],
+    "http": 200,
+    "sku_web": "100219",
+    "nombre_web": "Recipiente Residuos 65L.c-tapa-BusgranDPHpesado",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/recipiente-residuos-65l-c-tapa-busgrandph-pesado-100219",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/recipiente-residuos-65l-c-tapa-busgrandph-pesado-100219",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/recipiente-residuos-65l-c-tapa-busgrandph-pesado-100219",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "4195",
+    "producto": "Señal de Piso Mojado Tijera Busgran",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/se-al-piso-mojado-busgran-rubber-4195"
+    ],
+    "http": 200,
+    "sku_web": "4195",
+    "nombre_web": "Senal Piso Mojado Busgran-Rubber",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/se-al-piso-mojado-busgran-rubber-4195",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/se-al-piso-mojado-busgran-rubber-4195",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/se-al-piso-mojado-busgran-rubber-4195",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "5116",
+    "producto": "Cono Señalador Caution Amarillo",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/cono-se-alador-caution-amarillo-m-disc-5116"
+    ],
+    "http": 200,
+    "sku_web": "5116",
+    "nombre_web": "Cono Senalador Caution Amarillo-M",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/cono-se-alador-caution-amarillo-m-disc-5116",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/cono-se-alador-caution-amarillo-m-disc-5116",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/cono-se-alador-caution-amarillo-m-disc-5116",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3910",
+    "producto": "Balde Centrífugo Vileda Easy Wring",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/vileda-easy-wring-balde-promo-3910"
+    ],
+    "http": 200,
+    "sku_web": "3910",
+    "nombre_web": "Vileda Easy Wring Balde",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/vileda-easy-wring-balde-promo-3910",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/vileda-easy-wring-balde-promo-3910",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/vileda-easy-wring-balde-promo-3910",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "849",
+    "producto": "Balde Escurridor Turbo Matic Iberia Pronto",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/iberia-pronto-turbo-matic-completo-balde-mop-849"
+    ],
+    "http": 200,
+    "sku_web": "849",
+    "nombre_web": "Iberia Pronto Turbo Matic Balde Mop",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/iberia-pronto-turbo-matic-completo-balde-mop-849",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/iberia-pronto-turbo-matic-completo-balde-mop-849",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/iberia-pronto-turbo-matic-completo-balde-mop-849",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "4329",
+    "producto": "Carro Portaelementos de Limpieza Make",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/carro-portaelementos-make-4329"
+    ],
+    "http": 200,
+    "sku_web": "4329",
+    "nombre_web": "Carro Portaelementos-make",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/carro-portaelementos-make-4329",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/carro-portaelementos-make-4329",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/carro-portaelementos-make-4329",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3811",
+    "producto": "Carro de Lavandería con Bolsa Make",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/carro-lavanderia-c-bolsa-make-3811"
+    ],
+    "http": 200,
+    "sku_web": "3811",
+    "nombre_web": "Carro Lavanderia c-bolsa-make",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/carro-lavanderia-c-bolsa-make-3811",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/carro-lavanderia-c-bolsa-make-3811",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/carro-lavanderia-c-bolsa-make-3811",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "3619",
+    "producto": "Carro Multifunción Institucional Make",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/carro-multifuncion-make-3619"
+    ],
+    "http": 200,
+    "sku_web": "3619",
+    "nombre_web": "Carro Multifuncion-make",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/carro-multifuncion-make-3619",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/carro-multifuncion-make-3619",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/carro-multifuncion-make-3619",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "5803",
+    "producto": "Carro Doble Balde 20L con Prensa Royco",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/carro-20l-doble-c-prensa-royco-5803"
+    ],
+    "http": 200,
+    "sku_web": "5803",
+    "nombre_web": "Carro 20L.doble c-prensa-Royco",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/carro-20l-doble-c-prensa-royco-5803",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/carro-20l-doble-c-prensa-royco-5803",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/carro-20l-doble-c-prensa-royco-5803",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "7250",
+    "producto": "Tótem Dispenser Alcohol en Gel Manos Libres",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dispenser-alcohol-gel-manos-libres-totem-palacio-mas-7250"
+    ],
+    "http": 200,
+    "sku_web": "7250",
+    "nombre_web": "Dispenser Alcohol Gel manos libres Totem Palacio-Mas",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dispenser-alcohol-gel-manos-libres-totem-palacio-mas-7250",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dispenser-alcohol-gel-manos-libres-totem-palacio-mas-7250",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-alcohol-gel-manos-libres-totem-palacio-mas-7250",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "100327",
+    "producto": "Dispenser Toalla en Rollo a Palanca ABS",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-rollo-palanca-300m-100327"
+    ],
+    "http": 200,
+    "sku_web": "100327",
+    "nombre_web": "Dispenser Toalla rollo-palanca300mABS",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-rollo-palanca-300m-100327",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-rollo-palanca-300m-100327",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-rollo-palanca-300m-100327",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2167",
+    "producto": "Dispenser Jabón Líquido a Tecla Palacio",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liq-plast-palacio-2167"
+    ],
+    "http": 200,
+    "sku_web": "2167",
+    "nombre_web": "Dispenser Jabon Liq.plast.tecla-palacio",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liq-plast-palacio-2167",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liq-plast-palacio-2167",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liq-plast-palacio-2167",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2595",
+    "producto": "Dispenser Jabón Líquido Acero Inoxidable",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liquido-inoxidable-2595"
+    ],
+    "http": 200,
+    "sku_web": "2595",
+    "nombre_web": "Dispenser Jabon Liquido inoxidable",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liquido-inoxidable-2595",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liquido-inoxidable-2595",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liquido-inoxidable-2595",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "5340",
+    "producto": "Dispenser Toalla Intercalada Blanco PP",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-visor-blanco-1carga-5340"
+    ],
+    "http": 200,
+    "sku_web": "5340",
+    "nombre_web": "Dispenser Toalla interc.blanco1cargaPP",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-visor-blanco-1carga-5340",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-visor-blanco-1carga-5340",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-visor-blanco-1carga-5340",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "100104",
+    "producto": "Dispenser Toalla Intercalada Acero Inox",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-inoxidable-100104"
+    ],
+    "http": 200,
+    "sku_web": "100104",
+    "nombre_web": "Dispenser Toalla interc.inoxidable",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-inoxidable-100104",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-inoxidable-100104",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-inoxidable-100104",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2166",
+    "producto": "Dispenser Papel Higiénico Jumbo ABS",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/dispenser-higienico-jumbo-300-350m-2166"
+    ],
+    "http": 200,
+    "sku_web": "2166",
+    "nombre_web": "Dispenser Higienico Jumbo 300-350m.ABS",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/dispenser-higienico-jumbo-300-350m-2166",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/dispenser-higienico-jumbo-300-350m-2166",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-higienico-jumbo-300-350m-2166",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  },
+  {
+    "sku": "2687",
+    "producto": "Dispenser Papel Higiénico Jumbo Acero Inox",
+    "url_anterior": "",
+    "candidatas": [
+      "https://www.elpalaciodelalimpieza.com.ar/disp-acero-inox-higienico-600m-2687"
+    ],
+    "http": 200,
+    "sku_web": "2687",
+    "nombre_web": "Disp.Acero Inox.Higienico 600m.",
+    "url_final": "https://www.elpalaciodelalimpieza.com.ar/disp-acero-inox-higienico-600m-2687",
+    "canonical": "https://www.elpalaciodelalimpieza.com.ar/disp-acero-inox-higienico-600m-2687",
+    "estado": "verificado",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/disp-acero-inox-higienico-600m-2687",
+    "motivo": "HTTP 200 y SKU de la ficha idéntico al Excel"
+  }
+]
