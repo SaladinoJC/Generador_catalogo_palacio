@@ -1112,13 +1112,15 @@
       "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/5/3521_3521_0_2026-03-02_16_00_05.jpeg"
     },
     {
+      "sku": "10999",
+      "nombre_web": "Secavidrios  Aluminio 35 Gris-Royco",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/secavidrios-aluminio-35-gris-royco-10999",
+      "precio": "9500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/10999_10999_0_2025-11-11_11_12_17.jpeg",
+      "estado": "verificado",
       "orden": 67,
-      "sku": "1099",
-      "nombre_listado": "Osram Dulux MiniTwist 20w-blanca-disc.",
-      "estado": "sin_coincidencia",
-      "http": 429,
-      "url": "https://www.elpalaciodelalimpieza.com.ar/catalogsearch/result/?q=1099",
-      "candidatos": []
+      "nombre_listado": "Secav.Aluminio 35 Gris-Royco",
+      "imagen_descargada": "imagenes/10999.jpg"
     },
     {
       "orden": 68,
@@ -1625,12 +1627,6 @@
     }
   ],
   "imagenes_externas": [
-    {
-      "sku": "1099",
-      "fuente": "https://global.microless.com/product/osram-dulux-mini-twist-e27-fluorescent-bulb-20w-1300lm-865-dlxmt20w865e27uae/",
-      "imagen": "https://microless.com/cdn/products/04226f29e4247f3bdc95eaa847ebf6fb-hi.jpg",
-      "motivo": "Sin ficha en Palacio; se enlaza al inicio y se deja el precio a consultar."
-    },
     {
       "sku": "122",
       "fuente": "https://www.tienda.iberiahogar.com.ar/productos/nuevo-windomatic-limpiavidrios-todo-en-uno-15rrt/",

@@ -1,6 +1,6 @@
 {
-  "productos": 101,
-  "imagenes_validas": 101,
+  "productos": 102,
+  "imagenes_validas": 102,
   "sin_ficha_web": [
     {
       "sku": "5400",
@@ -19,13 +19,13 @@
       "nombre": "Felpudos personalizados"
     }
   ],
-  "pruebas_unitarias": 4,
+  "pruebas_unitarias": 5,
   "formatos": {
     "2_columnas": {
       "paginas": 19,
       "orden_correcto": true,
       "enlaces_productos_correctos": true,
-      "enlaces_totales_sin_portada": 376,
+      "enlaces_totales_sin_portada": 379,
       "condiciones_completas": true,
       "sin_imagenes_faltantes": true
     },
@@ -38,11 +38,12 @@
     }
   },
   "cambios_cliente": {
-    "1099": {
-      "mostrar": "NO"
-    },
     "122": {
       "precio": 52000
+    },
+    "10999": {
+      "mostrar": "SI",
+      "precio": 9500
     }
   }
 }

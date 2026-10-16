@@ -22,8 +22,8 @@ CATÁLOGO AUTOMÁTICO - PALACIO DE LA LIMPIEZA
    El PDF respeta el orden de las filas de esta planilla.
    La selección actual corresponde a PRODUCTOS CATALOGO NUEVO.xlsx: 101 artículos
    y el felpudo personalizado en la posición 102, según lo indicado por el cliente.
-   La lámpara Osram (SKU 1099) está conservada con Mostrar = NO: el PDF publica
-   100 artículos y el felpudo personalizado al final.
+   En la posición 67, el SKU corregido es 10999: Secavidrios Aluminio 35 Gris-Royco.
+   Ambos catálogos publican 101 artículos y el felpudo personalizado al final.
    El listado original se conserva como referencia; para editar precios, textos,
    enlaces o el orden del PDF se usa catalogo_productos.xlsx.
 
@@ -34,7 +34,8 @@ CATÁLOGO AUTOMÁTICO - PALACIO DE LA LIMPIEZA
 
    Se conservaron los precios anteriores de los artículos existentes. Para los
    nuevos se usó el precio verificado en Palacio. El precio de WindoMatic es
-   $52.000, informado por el cliente. La lámpara Osram está oculta por ahora.
+   $52.000, informado por el cliente. El secavidrios SKU 10999 tiene precio de
+   $9.500, verificado en la web de Palacio.
    El detalle de fuentes y enlaces está en salida/actualizacion_catalogo/productos_actualizados.json.
 
 3. Para generar el catálogo:

@@ -793,16 +793,17 @@
   },
   {
     "orden": 67,
-    "sku": "1099",
-    "producto": "Osram Dulux Mini Twist 20W",
-    "nombre_listado": "Osram Dulux MiniTwist 20w-blanca-disc.",
-    "url": "https://www.elpalaciodelalimpieza.com.ar",
-    "imagen": "imagenes/1099.jpg",
-    "precio": "Consultar",
-    "origen_precio": "a consultar",
-    "fuente_imagen": "https://global.microless.com/product/osram-dulux-mini-twist-e27-fluorescent-bulb-20w-1300lm-865-dlxmt20w865e27uae/",
-    "verificacion_url": "sin_coincidencia",
-    "mostrar": "NO"
+    "sku": "10999",
+    "producto": "Royco Secavidrios Aluminio 35cm",
+    "nombre_listado": "Secav.Aluminio 35 Gris-Royco",
+    "url": "https://www.elpalaciodelalimpieza.com.ar/secavidrios-aluminio-35-gris-royco-10999",
+    "imagen": "imagenes/10999.jpg",
+    "precio": 9500.0,
+    "origen_precio": "web Palacio",
+    "fuente_imagen": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/10999_10999_0_2025-11-11_11_12_17.jpeg",
+    "verificacion_url": "verificado",
+    "mostrar": "SI",
+    "nota": "SKU corregido por el cliente: corresponde a un secavidrios, no a la lámpara Osram."
   },
   {
     "orden": 68,

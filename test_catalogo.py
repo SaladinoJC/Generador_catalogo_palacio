@@ -23,8 +23,13 @@ class CatalogoFinalTests(unittest.TestCase):
         listado = [r for r in wb.worksheets[0].values if isinstance(r[1], int)]
         wb.close()
         productos = catalogo.load_products()
-        self.assertEqual(len(productos), 101)
-        self.assertEqual([p["sku"] for p in productos[:-1]], [str(r[2]) for r in listado[:-1] if str(r[2]) != "1099"])
+        self.assertEqual(len(productos), 102)
+        # El listado original puede estar abierto en Excel: se aplica la corrección del cliente.
+        self.assertEqual([p["sku"] for p in productos[:-1]], ["10999" if str(r[2]) == "1099" else str(r[2]) for r in listado[:-1]])
+        secavidrios = productos[66]
+        self.assertEqual(secavidrios["sku"], "10999")
+        self.assertIn("Secavidrios", secavidrios["name"])
+        self.assertEqual(secavidrios["price"], 9500)
         self.assertEqual(next(p["price"] for p in productos if p["sku"] == "122"), 52000)
         self.assertFalse(any(p["custom"] for p in productos[:-1]))
         personalizado = productos[-1]
