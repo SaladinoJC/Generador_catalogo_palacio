@@ -6,17 +6,36 @@ CATÁLOGO AUTOMÁTICO - PALACIO DE LA LIMPIEZA
 
 2. Editar catalogo_productos.xlsx:
    Columnas:
-   - SKU: Código del producto (ej: 5000).
+   - SKU: Código del producto (ej: 5000). Puede quedar vacío para productos personalizados.
    - Producto: Nombre que aparecerá en el PDF.
    - Descripción: Texto descriptivo.
    - Precio: Ingresar solo el número (ej: 4300).
    - Imagen: (Opcional si la imagen se llama como el SKU). Ej: imagenes/5000.png
    - Presentación: Por ejemplo "5 litros" (opcional).
    - Fragancias: Por ejemplo "Lavanda / Pino / Floral" (opcional).
-   - URL: Solo poner el nombre del producto en la web (ej: lavandina-5-litros). El script arma el link https://www.elpalaciodelalimpieza.com.ar/lavandina-5-litros automáticamente (opcional).
+   - URL: Ficha verificada del producto en la web, o su slug. Si queda vacía, todos los enlaces del producto llevan al inicio de www.elpalaciodelalimpieza.com.ar.
    - Oferta: Colocar "SI" para mostrar la cinta roja de ¡OFERTA! en la esquina superior de la tarjeta (opcional).
    - PrecioAnterior: Ingresar el precio previo numérico (ej: 12500) para mostrarlo tachado en rojo con el porcentaje de ahorro (opcional e independiente de Oferta).
    - Mostrar: "SI" para publicar / "NO" para ocultar.
+   - Tipo: "Personalizado" reserva una página propia, sin SKU ni precio fijo, con la descripción completa y un botón para cotizar por WhatsApp.
+
+   El PDF respeta el orden de las filas de esta planilla.
+   La selección actual corresponde a PRODUCTOS CATALOGO NUEVO.xlsx: 101 artículos
+   y el felpudo personalizado en la posición 102, según lo indicado por el cliente.
+   La lámpara Osram (SKU 1099) está conservada con Mostrar = NO: el PDF publica
+   100 artículos y el felpudo personalizado al final.
+   El listado original se conserva como referencia; para editar precios, textos,
+   enlaces o el orden del PDF se usa catalogo_productos.xlsx.
+
+   El felpudo personalizado usa imagenes/personalizado.jpg, sin SKU.
+   Su descripción indica cotización según medidas y con/sin borde, logo
+   obligatoriamente vectorizado (Corel .cdr o SVG .svg) y seña del 50% al confirmar.
+   Las condiciones se editan en su celda Descripción y se muestran completas.
+
+   Se conservaron los precios anteriores de los artículos existentes. Para los
+   nuevos se usó el precio verificado en Palacio. El precio de WindoMatic es
+   $52.000, informado por el cliente. La lámpara Osram está oculta por ahora.
+   El detalle de fuentes y enlaces está en salida/actualizacion_catalogo/productos_actualizados.json.
 
 3. Para generar el catálogo:
    - Haz doble clic en ejecutar_catalogo.bat (se abrirá automáticamente al terminar).
@@ -25,6 +44,17 @@ CATÁLOGO AUTOMÁTICO - PALACIO DE LA LIMPIEZA
 
 4. El resultado se guarda en:
    salida/catalogo.pdf
+
+VERSIÓN PARA IMPRIMIR EN EL LOCAL
+--------------------------------
+Haz doble clic en ejecutar_catalogo_impresion.bat o ejecuta:
+   python generar_catalogo.py --imprimir
+
+Se guarda aparte en salida/catalogo_impresion.pdf y usa los mismos productos,
+orden, fotos y datos del Excel. No muestra precios, descuentos, botones ni
+indicaciones de tocar enlaces. El espacio de los precios se aprovecha para
+las fichas de producto. Conserva las condiciones del felpudo personalizado.
+La versión digital con precios se sigue generando con ejecutar_catalogo.bat.
 
 IMÁGENES AUTOMÁTICAS
 --------------------

@@ -4,12 +4,16 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.colors import HexColor, white
 from reportlab.lib.utils import ImageReader
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.platypus import Paragraph
+from xml.sax.saxutils import escape
 from PIL import Image
 from datetime import datetime
 import textwrap
 import urllib.parse
 import io
 import sys
+import argparse
 
 # ==============================================================================
 # CONFIGURACIÓN DEL COMERCIO Y CONTACTO
@@ -45,6 +49,7 @@ PORTADIN_IMG = BASE / "portadin.png"
 CAMIONETA_IMG = BASE / "camioneta.jpg"
 PORTADA_CACHE = BASE / "salida" / "_portada_compuesta.png"
 SALIDA = BASE / "salida" / "catalogo.pdf"
+SALIDA_IMPRESION = BASE / "salida" / "catalogo_impresion.pdf"
 
 # Verde extraído directamente de los píxeles del logo.jpg para coincidencia 100% exacta
 GREEN = HexColor("#146B41")
@@ -57,9 +62,10 @@ RED = HexColor("#DC2626")
 W, H = A4
 
 
-def link_url_new_tab(c, url, rect):
+def link_url_new_tab(c, url, rect, print_version=False):
     """Enlace estándar de ReportLab sin bordes para compatibilidad universal."""
-    c.linkURL(url, rect, thickness=0)
+    if not print_version:
+        c.linkURL(url, rect, thickness=0)
 
 
 def money(value):
@@ -81,10 +87,10 @@ def get_mes_actual():
 
 def build_product_url(val):
     if not val:
-        return ""
+        return WEB_URL
     val = str(val).strip()
     if not val:
-        return ""
+        return WEB_URL
     if val.startswith("http://") or val.startswith("https://"):
         return val
     if val.startswith("www."):
@@ -94,7 +100,7 @@ def build_product_url(val):
             val = val[len(prefix):]
     slug = val.lstrip("/")
     if not slug:
-        return ""
+        return WEB_URL
     return f"https://www.elpalaciodelalimpieza.com.ar/{slug}"
 
 
@@ -121,8 +127,13 @@ def load_products():
 
         sku = str(ws.cell(row, headers["SKU"]).value or "").strip()
         nombre = str(ws.cell(row, headers["Producto"]).value or "").strip()
-        if not sku or not nombre:
+        if not nombre:
             continue
+
+        personalizado = (
+            "Tipo" in headers
+            and str(ws.cell(row, headers["Tipo"]).value or "").strip().casefold() == "personalizado"
+        )
 
         imagen_val = ""
         if "Imagen" in headers:
@@ -138,7 +149,7 @@ def load_products():
                 if candidate_sub.exists():
                     imagen_path = candidate_sub
 
-        if not imagen_path or not imagen_path.exists():
+        if sku and (not imagen_path or not imagen_path.exists()):
             for ext in (".png", ".jpg", ".jpeg", ".webp", ".PNG", ".JPG"):
                 candidate_sku = BASE / "imagenes" / f"{sku}{ext}"
                 if candidate_sku.exists():
@@ -198,8 +209,10 @@ def load_products():
             "url": build_product_url(url_raw),
             "offer": oferta,
             "category": categoria,
+            "custom": personalizado,
         })
 
+    wb.close()
     return products
 
 
@@ -312,7 +325,7 @@ def draw_diagonal_offer_ribbon(c, card_x, card_y, card_w, card_h, offset=24, ban
     c.restoreState()
 
 
-def draw_header(c, page_no, total_pages=1):
+def draw_header(c, page_no, total_pages=1, print_version=False):
     header_h = 96
     c.setFillColor(GREEN)
     c.rect(0, H - header_h, W, header_h, fill=1, stroke=0)
@@ -340,11 +353,15 @@ def draw_header(c, page_no, total_pages=1):
     c.drawRightString(W - 20, H - 32, pag_text)
 
     c.setFont("Helvetica", 7.8)
-    vigencia = f"Precios vigentes: {get_mes_actual()}"
+    vigencia = "Catálogo para consulta en el local" if print_version else f"Precios vigentes: {get_mes_actual()}"
     c.drawRightString(W - 20, H - 46, vigencia)
 
     # Botón de WhatsApp muy visible y llamativo en la cabecera
     if WHATSAPP_NUMERO:
+        if print_version:
+            c.setFont("Helvetica-Bold", 9)
+            c.drawRightString(W - 20, H - 74, f"WhatsApp: {WHATSAPP_DISPLAY}")
+            return
         wa_h_w = 175
         wa_h_h = 24
         wa_h_x = W - 20 - wa_h_w
@@ -361,7 +378,7 @@ def draw_header(c, page_no, total_pages=1):
         link_url_new_tab(c, wa_top_url, (wa_h_x, wa_h_y, wa_h_x + wa_h_w, wa_h_y + wa_h_h))
 
 
-def draw_footer(c):
+def draw_footer(c, print_version=False):
     footer_h = 26
     c.setFillColor(GREEN)
     c.rect(0, 0, W, footer_h, fill=1, stroke=0)
@@ -371,7 +388,7 @@ def draw_footer(c):
     c.setFont("Helvetica-Bold", 7.5)
     c.drawString(20, 9, WEB_DISPLAY)
     web_w = c.stringWidth(WEB_DISPLAY, "Helvetica-Bold", 7.5)
-    link_url_new_tab(c, WEB_URL, (20, 2, 20 + web_w, footer_h))
+    link_url_new_tab(c, WEB_URL, (20, 2, 20 + web_w, footer_h), print_version)
 
     # Separador
     sep_x = 20 + web_w + 8
@@ -384,26 +401,26 @@ def draw_footer(c):
     ig_label = f"Instagram: {INSTAGRAM_USER}"
     c.drawString(ig_x, 9, ig_label)
     ig_w = c.stringWidth(ig_label, "Helvetica-Bold", 7.5)
-    link_url_new_tab(c, INSTAGRAM_URL, (ig_x, 2, ig_x + ig_w, footer_h))
+    link_url_new_tab(c, INSTAGRAM_URL, (ig_x, 2, ig_x + ig_w, footer_h), print_version)
 
     # Enlace a Pedidos por WhatsApp
     if WHATSAPP_NUMERO:
         c.setFont("Helvetica-Bold", 7.5)
-        wa_display = f"Toca para WhatsApp: {WHATSAPP_DISPLAY}"
+        wa_display = f"WhatsApp: {WHATSAPP_DISPLAY}" if print_version else f"Toca para WhatsApp: {WHATSAPP_DISPLAY}"
         c.drawRightString(W - 20, 9, wa_display)
         wa_w = c.stringWidth(wa_display, "Helvetica-Bold", 7.5)
         wa_url = f"https://wa.me/{WHATSAPP_NUMERO}?text={urllib.parse.quote(WHATSAPP_TEXTO_GENERAL)}"
-        link_url_new_tab(c, wa_url, (W - 20 - wa_w, 2, W - 20, footer_h))
+        link_url_new_tab(c, wa_url, (W - 20 - wa_w, 2, W - 20, footer_h), print_version)
     else:
         c.setFont("Helvetica", 7.5)
-        c.drawRightString(W - 20, 9, "Precios expresados en pesos argentinos")
+        c.drawRightString(W - 20, 9, "Consultanos en el local" if print_version else "Precios expresados en pesos argentinos")
 
 
 # ==============================================================================
 # DISEÑO DE TARJETA EN CUADRÍCULA (RÉPLICA EXACTA DE diseño.png)
 # 3 zonas horizontales: Barra SKU/Tag, Cuerpo con Foto Cuadrada + Título, Pie con Precio + Botón Web
 # ==============================================================================
-def draw_card_grid(c, p, x, y, w, h):
+def draw_card_grid(c, p, x, y, w, h, print_version=False):
     # Contenedor de la tarjeta (fondo blanco y borde redondeado)
     c.setFillColor(white)
     c.setStrokeColor(LINE)
@@ -421,12 +438,12 @@ def draw_card_grid(c, p, x, y, w, h):
     # SKU
     c.setFillColor(DARK)
     c.setFont("Helvetica-Bold", 8.5)
-    sku_str = f"SKU {p['sku']}"
+    sku_str = f"SKU {p['sku']}" if p["sku"] else "A PEDIDO"
     c.drawString(x + 12, y + h - 18, sku_str)
     sku_w = c.stringWidth(sku_str, "Helvetica-Bold", 8.5)
 
     # Límite derecho para el badge de presentación/fragancias
-    if p.get("offer"):
+    if p.get("offer") and not print_version:
         max_right = x + w - 44
     else:
         max_right = x + w - 12
@@ -461,13 +478,13 @@ def draw_card_grid(c, p, x, y, w, h):
         c.drawCentredString(tag_x + tag_w / 2, y + h - 17.5, tag_text)
 
     # Cinta diagonal de ¡OFERTA!
-    if p.get("offer"):
+    if p.get("offer") and not print_version:
         draw_diagonal_offer_ribbon(c, x, y, w, h, offset=24, band_w=16, font_sz=7)
 
     # --------------------------------------------------------------------------
     # ZONA 2: CUERPO CENTRAL (IMAGEN CUADRADA A LA IZQ + TÍTULO Y DESC AMPLIADA)
     # --------------------------------------------------------------------------
-    footer_bar_y = y + 68
+    footer_bar_y = y + (12 if print_version else 68)
     body_h = header_bar_y - footer_bar_y  # 126 pt disponibles
 
     img_size = min(110, body_h - 14)
@@ -477,7 +494,7 @@ def draw_card_grid(c, p, x, y, w, h):
     fit_image(c, p["img"], img_x, img_y, img_size, img_size)
 
     product_target_url = p["url"] or WEB_URL
-    link_url_new_tab(c, product_target_url, (img_x, img_y, img_x + img_size, img_y + img_size))
+    link_url_new_tab(c, product_target_url, (img_x, img_y, img_x + img_size, img_y + img_size), print_version)
 
     tx = img_x + img_size + 12
     right_edge = x + w - 10
@@ -492,7 +509,7 @@ def draw_card_grid(c, p, x, y, w, h):
         ty -= 14
 
     title_h = len(nombre_lines) * 14
-    link_url_new_tab(c, product_target_url, (tx, ty + 2, right_edge, ty + 2 + title_h))
+    link_url_new_tab(c, product_target_url, (tx, ty + 2, right_edge, ty + 2 + title_h), print_version)
 
     # Descripción ampliada con mayor tamaño de fuente y aprovechando el espacio
     ty -= 3
@@ -503,6 +520,9 @@ def draw_card_grid(c, p, x, y, w, h):
     for line in desc_lines:
         c.drawString(tx, ty, line)
         ty -= 10.5
+
+    if print_version:
+        return
 
     # Línea divisoria horizontal sobre el pie
     c.setStrokeColor(LINE)
@@ -580,7 +600,7 @@ def draw_card_grid(c, p, x, y, w, h):
 # ==============================================================================
 # DISEÑO DE TARJETA HORIZONTAL (1 COLUMNA, 3 PRODUCTOS POR PÁGINA)
 # ==============================================================================
-def draw_card_horizontal(c, p, x, y, w, h):
+def draw_card_horizontal(c, p, x, y, w, h, print_version=False):
     c.setFillColor(white)
     c.setStrokeColor(LINE)
     c.setLineWidth(0.8)
@@ -596,7 +616,7 @@ def draw_card_horizontal(c, p, x, y, w, h):
     fit_image(c, p["img"], img_x, img_y, img_w, img_h)
 
     product_target_url = p["url"] or WEB_URL
-    link_url_new_tab(c, product_target_url, (img_x, img_y, img_x + img_w, img_y + img_h))
+    link_url_new_tab(c, product_target_url, (img_x, img_y, img_x + img_w, img_y + img_h), print_version)
 
     div_x = img_x + img_w + 16
     c.setStrokeColor(LINE)
@@ -607,9 +627,9 @@ def draw_card_horizontal(c, p, x, y, w, h):
 
     c.setFillColor(GREEN)
     c.setFont("Helvetica-Bold", 7.5)
-    c.drawString(tx, ty, f"SKU {p['sku']}")
+    c.drawString(tx, ty, f"SKU {p['sku']}" if p["sku"] else "A PEDIDO")
 
-    if p.get("offer"):
+    if p.get("offer") and not print_version:
         draw_diagonal_offer_ribbon(c, x, y, w, h, offset=28, band_w=20, font_sz=8)
 
     tags = []
@@ -620,11 +640,11 @@ def draw_card_horizontal(c, p, x, y, w, h):
 
     if tags:
         tag_text = " · ".join(tags)
-        max_chars = 34 if p.get("offer") else 50
+        max_chars = 34 if p.get("offer") and not print_version else 50
         if len(tag_text) > max_chars:
             tag_text = tag_text[:max_chars - 3] + "..."
         c.setFillColor(LIGHT)
-        max_tag_w = 165 if p.get("offer") else 250
+        max_tag_w = 165 if p.get("offer") and not print_version else 250
         tag_w = min(max_tag_w, c.stringWidth(tag_text, "Helvetica-Bold", 7) + 16)
         c.roundRect(tx + 60, ty - 5, tag_w, 16, 8, fill=1, stroke=0)
         c.setFillColor(GREEN)
@@ -640,14 +660,18 @@ def draw_card_horizontal(c, p, x, y, w, h):
         ty -= 15
 
     title_h = len(nombre_lines) * 16
-    link_url_new_tab(c, product_target_url, (tx, ty + 10, tx + 240, ty + 10 + title_h))
+    link_url_new_tab(c, product_target_url, (tx, ty + 10, tx + 240, ty + 10 + title_h), print_version)
 
     ty -= 3
     c.setFillColor(MID)
     c.setFont("Helvetica", 8.2)
-    for line in wrapped_lines(p["desc"], 58, 4):
+    max_desc_lines = max(1, int((ty - (y + 18)) / 11) + 1) if print_version else 4
+    for line in wrapped_lines(p["desc"], 58, max_desc_lines):
         c.drawString(tx, ty, line)
         ty -= 11
+
+    if print_version:
+        return
 
     if p.get("old_price"):
         old_str = money(p["old_price"])
@@ -711,6 +735,89 @@ def draw_card_horizontal(c, p, x, y, w, h):
     link_url_new_tab(c, product_target_url, (btn_x, btn_y, btn_x + btn_w, btn_y + btn_h))
 
 
+def draw_custom_product(c, p, print_version=False):
+    """Ficha independiente para productos a medida, sin SKU ni precio fijo."""
+    x, y, w, h = 20, 48, W - 40, H - 156
+    c.setFillColor(white)
+    c.setStrokeColor(LINE)
+    c.roundRect(x, y, w, h, 10, fill=1, stroke=1)
+
+    c.setFillColor(LIGHT)
+    c.roundRect(x + 20, y + h - 36, 147, 20, 6, fill=1, stroke=0)
+    c.setFillColor(GREEN)
+    c.setFont("Helvetica-Bold", 8.5)
+    c.drawString(x + 31, y + h - 29, "FABRICACIÓN A PEDIDO")
+
+    def paragraph(text, top, font_size=10.5, bold=False, color=DARK):
+        style = ParagraphStyle(
+            "personalizado", fontName="Helvetica-Bold" if bold else "Helvetica",
+            fontSize=font_size, leading=font_size * 1.35, textColor=color,
+        )
+        block = Paragraph(escape(text).replace("\n", "<br/>"), style)
+        _, height = block.wrap(w - 40, h)
+        block.drawOn(c, x + 20, top - height)
+        return top - height
+
+    title_top = y + h - 52
+    top = paragraph(p["name"], title_top, 23, bold=True)
+    link_url_new_tab(c, p["url"] or WEB_URL, (x + 20, top, x + w - 20, title_top), print_version)
+    top = paragraph("Tu logo, una bienvenida con identidad propia.", top - 6, 11, color=MID)
+
+    image_h = 254
+    image_y = top - image_h - 16
+    fit_image(c, p["img"], x + 20, image_y, w - 40, image_h)
+    link_url_new_tab(c, p["url"] or WEB_URL, (x + 20, image_y, x + w - 20, image_y + image_h), print_version)
+
+    top = paragraph("Cotización según tu diseño", image_y - 17, 15, bold=True)
+    paragraph(p["desc"], top - 10, 11)
+
+    c.setFillColor(LIGHT)
+    c.roundRect(x + 20, y + 77, w - 40, 44, 7, fill=1, stroke=0)
+    label = "FABRICACIÓN A MEDIDA · SEÑA DEL 50% AL CONFIRMAR" if print_version else "PRECIO A COTIZAR · FABRICACIÓN CON SEÑA DEL 50%"
+    paragraph(label, y + 105, 10, bold=True, color=GREEN)
+
+    if print_version:
+        paragraph("Consultá en el local para cotizar tu felpudo personalizado.", y + 47, 11, bold=True)
+        return
+
+    buttons = [("Ver en la web >", p["url"] or WEB_URL, 158)]
+    if WHATSAPP_NUMERO:
+        message = (
+            "¡Hola! Quisiera cotizar un felpudo personalizado. "
+            "Les paso las medidas, si lo quiero con borde o sin borde y mi logo vectorizado en Corel o SVG."
+        )
+        buttons.insert(0, ("Cotizar por WhatsApp >", f"https://wa.me/{WHATSAPP_NUMERO}?text={urllib.parse.quote(message)}", w - 218))
+    bx = x + 20
+    for label, url, bw in buttons:
+        c.setFillColor(GREEN)
+        c.roundRect(bx, y + 20, bw, 38, 6, fill=1, stroke=0)
+        c.setFillColor(white)
+        c.setFont("Helvetica-Bold", 11)
+        c.drawCentredString(bx + bw / 2, y + 34, label)
+        link_url_new_tab(c, url, (bx, y + 20, bx + bw, y + 58))
+        bx += bw + 20
+
+
+def product_batches(products, cards_per_page):
+    """Mantiene el orden y reserva una página para cada producto personalizado."""
+    batches = []
+    pending = []
+    for product in products:
+        if product.get("custom"):
+            if pending:
+                batches.append(pending)
+                pending = []
+            batches.append([product])
+        else:
+            pending.append(product)
+            if len(pending) == cards_per_page:
+                batches.append(pending)
+                pending = []
+    if pending:
+        batches.append(pending)
+    return batches
+
+
 def get_blended_cover_path():
     """Genera o recupera de caché la portada compuesta de portadin.png con camioneta.jpg difuminada en el fondo superior."""
     if not PORTADIN_IMG.exists():
@@ -768,7 +875,7 @@ def get_blended_cover_path():
         return PORTADIN_IMG
 
 
-def draw_cover(c):
+def draw_cover(c, print_version=False):
     cover_img_path = get_blended_cover_path()
     if cover_img_path and cover_img_path.exists():
         # Portada fiel a portadin.png con camioneta.jpg en el fondo superior
@@ -777,7 +884,8 @@ def draw_cover(c):
         # Disclaimer inferior integrado discretamente con tipografía cuidada
         c.setFont("Helvetica-Bold", 9.5)
         c.setFillColor(HexColor("#D1FAE5"))
-        c.drawCentredString(W / 2, 40, f"* {DISCLAIMER_PORTADA} *")
+        if not print_version:
+            c.drawCentredString(W / 2, 40, f"* {DISCLAIMER_PORTADA} *")
         return
 
     # Fallback si no está portadin.png (diseño institucional vectorial)
@@ -805,10 +913,12 @@ def draw_cover(c):
 
     c.setFont("Helvetica-Bold", 9.5)
     c.setFillColor(HexColor("#FEF08A"))
-    c.drawCentredString(W / 2, 55, f"* {DISCLAIMER_PORTADA} *")
+    if not print_version:
+        c.drawCentredString(W / 2, 55, f"* {DISCLAIMER_PORTADA} *")
 
 
-def generate():
+def generate(print_version=False, output=None):
+    output = Path(output) if output is not None else (SALIDA_IMPRESION if print_version else SALIDA)
     products = load_products()
     if not products:
         raise RuntimeError("No hay productos con Mostrar = SI.")
@@ -831,61 +941,66 @@ def generate():
         gap = 16
         top_y = H - header_h - 18
 
-    product_pages = (len(products) + cards_per_page - 1) // cards_per_page
+    batches = product_batches(products, cards_per_page)
+    product_pages = len(batches)
 
     try:
-        SALIDA.parent.mkdir(parents=True, exist_ok=True)
-        c = canvas.Canvas(str(SALIDA), pagesize=A4)
-        c.setTitle(f"Catálogo {NOMBRE_COMERCIO}")
+        output.parent.mkdir(parents=True, exist_ok=True)
+        c = canvas.Canvas(str(output), pagesize=A4)
+        c.setTitle(f"Catálogo {NOMBRE_COMERCIO}" + (" - Para imprimir" if print_version else ""))
 
         # Portada institucional inicial
         if INCLUIR_PORTADA:
-            draw_cover(c)
+            draw_cover(c, print_version)
             c.showPage()
 
         page_no = 1
-        for start in range(0, len(products), cards_per_page):
-            draw_header(c, page_no, product_pages)
-            batch = products[start:start + cards_per_page]
+        for batch in batches:
+            draw_header(c, page_no, product_pages, print_version)
 
-            if COLUMNAS == 2:
+            if batch[0].get("custom"):
+                draw_custom_product(c, batch[0], print_version)
+            elif COLUMNAS == 2:
                 for i, p in enumerate(batch):
                     row = i // 2
                     col = i % 2
                     x = start_x + col * (card_w + col_gap)
                     y = top_y - (row + 1) * card_h - row * row_gap
-                    draw_card_grid(c, p, x, y, card_w, card_h)
+                    draw_card_grid(c, p, x, y, card_w, card_h, print_version)
             else:
                 y_top = top_y
                 for p in batch:
                     y = y_top - card_h
-                    draw_card_horizontal(c, p, 26, y, card_w, card_h)
+                    draw_card_horizontal(c, p, 26, y, card_w, card_h, print_version)
                     y_top = y - gap
 
-            draw_footer(c)
+            draw_footer(c, print_version)
             c.showPage()
             page_no += 1
 
         c.save()
     except PermissionError:
         raise PermissionError(
-            f"No se pudo guardar '{SALIDA.name}'. El archivo está ABIERTO en otra aplicación "
+            f"No se pudo guardar '{output.name}'. El archivo está ABIERTO en otra aplicación "
             f"(Adobe Reader, navegador, etc.).\nPor favor ciérralo y vuelve a ejecutar."
         )
 
-    size_kb = SALIDA.stat().st_size / 1024
+    size_kb = output.stat().st_size / 1024
     if size_kb >= 1024:
         size_str = f"{size_kb / 1024:.2f} MB"
     else:
         size_str = f"{size_kb:.0f} KB"
 
     total_pdf_pages = product_pages + (1 if INCLUIR_PORTADA else 0)
-    print(f"Catálogo generado con éxito: {SALIDA} ({size_str}, {total_pdf_pages} pág{'s' if total_pdf_pages > 1 else ''})")
+    print(f"Catálogo generado con éxito: {output} ({size_str}, {total_pdf_pages} pág{'s' if total_pdf_pages > 1 else ''})")
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Generador de catálogos de El Palacio de la Limpieza")
+    parser.add_argument("--imprimir", action="store_true", help="Generar un PDF aparte, sin precios ni botones, para imprimir en el local")
+    args = parser.parse_args()
     try:
-        generate()
+        generate(print_version=args.imprimir)
     except PermissionError as pe:
         print("\n" + "=" * 65)
         print("AVISO: ARCHIVO PDF BLOQUEADO")

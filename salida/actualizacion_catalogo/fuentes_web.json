@@ -1,0 +1,1641 @@
+{
+  "sitio": "https://www.elpalaciodelalimpieza.com.ar",
+  "sitemap": "https://www.elpalaciodelalimpieza.com.ar/sitemap.xml",
+  "fecha_revision": "2026-10-16",
+  "fichas": [
+    {
+      "orden": 1,
+      "sku": "5000",
+      "nombre_listado": "Lavandina 5L-Palacio",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/lavandina-5l-palacio-5000",
+      "nombre_web": "Lavandina 5L-Palacio",
+      "precio": "4300",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/0/5000_5000_0_2026-09-01_20_00_03.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/lavandina-5l-palacio-5000",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/0/5000_5000_0_2026-09-01_20_00_03.jpeg"
+    },
+    {
+      "orden": 2,
+      "sku": "5002",
+      "nombre_listado": "Desodorante 5L-lavanda+",
+      "estado": "verificado",
+      "http": 200,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-lavanda-5002",
+      "candidatos": [
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-lavanda-5002",
+          "nombre": "Desodorante 5L-lavanda"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-limon-5002-2",
+          "nombre": "Desodorante 5L-limon"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-cherry-5002-3",
+          "nombre": "Desodorante 5L-cherry"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-pino-5002-4",
+          "nombre": "Desodorante 5L-pino"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-citronella-palacio-promo-5002-6",
+          "nombre": "Desodorante Piso 5L-citronella Palacio"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/desodorante-5l-arpege-5002-8",
+          "nombre": "Desodorante 5L-Arpege"
+        }
+      ],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/desodorante-piso-5l-lavanda-5002",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/0/5002_5002_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Desodorante 5L-lavanda",
+      "precio": "4000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/0/5002_5002_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 3,
+      "sku": "5001",
+      "nombre_listado": "Detergente Super 5L.",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/detergente-super-5l-5001",
+      "nombre_web": "Detergente Super 5L.",
+      "precio": "10000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/0/5001_5001_0_2026-01-08_16_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/detergente-super-5l-5001",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/0/5001_5001_0_2026-01-08_16_00_04.jpeg"
+    },
+    {
+      "orden": 4,
+      "sku": "5459",
+      "nombre_listado": "Jabón Líq.Ropa 5L-Palacio",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/jabon-liquido-ropa-5l-palacio-5459",
+      "nombre_web": "Jabon Liquido Ropa 5L-Palacio",
+      "precio": "9000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/4/5459_5459_0_2025-11-11_11_12_17.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/jabon-liquido-ropa-5l-palacio-5459",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/4/5459_5459_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 5,
+      "sku": "1044",
+      "nombre_listado": "Suavizante Palacio 5L.",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/suavizante-palacio-5l-1044",
+      "nombre_web": "Suavizante Palacio 5L.",
+      "precio": "7000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/1044_1044_0_2025-11-11_11_12_17.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/suavizante-palacio-5l-1044",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/1044_1044_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 6,
+      "sku": "1218",
+      "nombre_listado": "Hipoclorito 100% 5L-Palacio",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/hipoclorito-100-5l-palacio-1218",
+      "nombre_web": "Hipoclorito 100% 5L-Palacio",
+      "precio": "9500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/2/1218_1218_0_2025-11-11_11_12_17.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/hipoclorito-100-5l-palacio-1218",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/2/1218_1218_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 7,
+      "sku": "10109",
+      "nombre_listado": "Zelnova Desinf.5L-viricida",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-desinfectante-5l-viricida-10109",
+      "nombre_web": "Zelnova desinfectante 5L-viricida",
+      "precio": "12000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/10109_10109_0_2025-11-11_11_12_17.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/zelnova-desinfectante-5l-viricida-10109",
+      "imagen_sitemap": ""
+    },
+    {
+      "orden": 8,
+      "sku": "2907",
+      "nombre_listado": "Zelnova Remocer 5L.limp.desengrasante total",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-remocer-5l-2907",
+      "nombre_web": "Zelnova Remocer 5L.limp.desengrasante total",
+      "precio": "14000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/9/2907_2907_0_2026-09-26_16_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/zelnova-remocer-5l-2907",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/9/2907_2907_0_2026-09-26_16_00_04.jpeg"
+    },
+    {
+      "orden": 9,
+      "sku": "2910",
+      "nombre_listado": "Zelnova Autob.5L.incoloro",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-autobrillo-5l-incoloro-2910",
+      "nombre_web": "Zelnova Autobrillo 5L.incoloro",
+      "precio": "20000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/9/2910_2910_0_2026-09-26_16_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/zelnova-autobrillo-5l-incoloro-2910",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/9/2910_2910_0_2026-09-26_16_00_04.jpeg"
+    },
+    {
+      "orden": 10,
+      "sku": "2913",
+      "nombre_listado": "Remocer/Zelnova Acond.piso 5L.(t/Echo)",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-acondicionador-piso-5l-2913",
+      "nombre_web": "Remocer-Zelnova Acondicionador piso 5L.t-Echo",
+      "precio": "18000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/9/2913_2913_0_2025-11-28_20_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/zelnova-acondicionador-piso-5l-2913",
+      "imagen_sitemap": ""
+    },
+    {
+      "orden": 11,
+      "sku": "3510",
+      "nombre_listado": "Zelnova Quitasarro 5L.",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-quitasarro-5l-3510",
+      "nombre_web": "Zelnova Quitasarro 5L.",
+      "precio": "18000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/5/3510_3510_0_2025-11-11_11_12_17.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/zelnova-quitasarro-5l-3510",
+      "imagen_sitemap": ""
+    },
+    {
+      "orden": 12,
+      "sku": "2916",
+      "nombre_listado": "Zelnova Vidrios 5L.",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/zelnova-vidrios-5l-2916",
+      "nombre_web": "Zelnova Vidrios 5L.",
+      "precio": "9500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/9/2916_2916_0_2026-09-26_16_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/zelnova-vidrios-5l-2916",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/9/2916_2916_0_2026-09-26_16_00_04.jpeg"
+    },
+    {
+      "orden": 13,
+      "sku": "4815",
+      "nombre_listado": "Campanita Rollox3-classic(50p)",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/campanita-rollox3-classic-50p-promo-4815",
+      "nombre_web": "Campanita Rollox3-classic50p",
+      "precio": "2000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/8/4815_4815_0_2026-02-27_20_00_05.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/campanita-rollox3-classic-50p-promo-4815",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/8/4815_4815_0_2026-02-27_20_00_05.jpeg"
+    },
+    {
+      "orden": 14,
+      "sku": "2800",
+      "nombre_listado": "Campanita Rollo 200paños x1(practirollo)promo",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/campanita-rollo-200pa-os-x1-practirollo-promo-2800",
+      "nombre_web": "Campanita Rollo 200panos x1practirollopromo",
+      "precio": "1800",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/8/2800_2800_0_2026-09-25_16_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/campanita-rollo-200pa-os-x1-practirollo-promo-2800",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/8/2800_2800_0_2026-09-25_16_00_04.jpeg"
+    },
+    {
+      "orden": 15,
+      "sku": "4851",
+      "nombre_listado": "P.H.Campanita Soft x4 (30m)promo",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-campanita-soft-x4-30m-promo-4851",
+      "nombre_web": "Papel Higienico Campanita Soft x4 30mpromo",
+      "precio": "1500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/8/4851_4851_0_2025-11-11_11_12_17.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-campanita-soft-x4-30m-promo-4851",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/8/4851_4851_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 16,
+      "sku": "3579",
+      "nombre_listado": "P.H.Campanita Plus 4x30m.",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-campanita-plus-4x30m-3579",
+      "nombre_web": "Papel Higienico Campanita Plus 4x30m.",
+      "precio": "1800",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/5/3579_3579_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/3579.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-campanita-plus-4x30m-3579",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/5/3579_3579_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 17,
+      "sku": "4723",
+      "nombre_listado": "P.H.Campanita d/hoja 30mx4 Ultra-promo",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-campanita-d-h-30mx4-ultra-4723",
+      "nombre_web": "Papel Higienico Campanita d-hoja 30mx4 Ultra-promo",
+      "precio": "3000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/7/4723_4723_0_2026-02-27_20_00_05.jpeg",
+      "imagen_descargada": "imagenes/4723.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-campanita-d-h-30mx4-ultra-4723",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/7/4723_4723_0_2026-02-27_20_00_05.jpeg"
+    },
+    {
+      "orden": 18,
+      "sku": "4013",
+      "nombre_listado": "Serv.32x30cm.x800 uds.Campanita",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/servilletas-32x30x1000-campanita-4013",
+      "nombre_web": "Servilletas 32x30cm.x800 uds,Campanita",
+      "precio": "18000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/0/4013_4013_0_2026-02-03_20_00_04.jpeg",
+      "imagen_descargada": "imagenes/4013.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/servilletas-32x30x1000-campanita-4013",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/0/4013_4013_0_2026-02-03_20_00_04.jpeg"
+    },
+    {
+      "orden": 19,
+      "sku": "6221",
+      "nombre_listado": "Toalla blanca Ecco x2500-18.4x24cm.",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-ecco-x2500-18-4x24cm-6221",
+      "nombre_web": "Toalla blanca Ecco x2500-18.4x24cm.",
+      "precio": "25999",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/6/2/6221_6221_0_2026-09-03_16_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-ecco-x2500-18-4x24cm-6221",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/2/6221_6221_0_2026-09-03_16_00_04.jpeg"
+    },
+    {
+      "orden": 20,
+      "sku": "2164",
+      "nombre_listado": "Toalla blanca premium x2500-20x24cm.Campanita",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-premium-x2500-20x24cm-intercaladas-2164",
+      "nombre_web": "Toalla blanca premium x2500-20x24cm.Campanita",
+      "precio": "32000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/1/2164_2164_0_2026-02-03_20_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/toalla-blanca-premium-x2500-20x24cm-intercaladas-2164",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/1/2164_2164_0_2026-02-03_20_00_04.jpeg"
+    },
+    {
+      "orden": 21,
+      "sku": "3676",
+      "nombre_listado": "Bobina 24cm.x400m.x2 blanca-Eccosoft-d/hoja",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/bobina-24cm-x400m-x2-blanca-eccosoft-doble-hoja-3676",
+      "nombre_web": "Bobina 24cm.x400m.x2 blanca-Eccosoft-doble hoja",
+      "precio": "38000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/6/3676_3676_0_2026-06-17_20_00_05.jpeg",
+      "imagen_descargada": "imagenes/3676.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/bobina-24cm-x400m-x2-blanca-eccosoft-doble-hoja-3676",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/6/3676_3676_0_2026-06-17_20_00_05.jpeg"
+    },
+    {
+      "orden": 22,
+      "sku": "100",
+      "nombre_listado": "P.H.8x300m.cono chico-Palacio/High",
+      "estado": "verificado",
+      "http": 200,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-8x300m-cono-chico-palacio-100",
+      "candidatos": [
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/colgate-100g-sens-blanqueadora-3694",
+          "nombre": "Colgate 100g.Sensitive Blanqueadora"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/lampazo-barredor-acrilico-100cto-boton-2066",
+          "nombre": "Lampazo barredor acrilico 100Cto.boton15cmprofesional"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/off-crema-90g-kids-5887",
+          "nombre": "Off Crema 90-100g.Kids"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/lampazo-barredor-algodon-100rep-boton-291",
+          "nombre": "Lampazo barredor algodon 100Rep.boton15cmprofesional"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/lampazo-barredor-acrilico-100rep-boton-3677",
+          "nombre": "Lampazo barredor acrilico 100Rep.boton15cmprofesional"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/algabo-quitaesmalte-100-humectante-10000",
+          "nombre": "Quitaesmalte 100-humectante P.Allen-Algabo"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/media-naranja-pa-o-microfibra-x3-1000usos-1994",
+          "nombre": "Media Naranja Pano Microfibra x3-1000usos"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/hipoclorito-100-5l-palacio-1218",
+          "nombre": "Hipoclorito 100% 5L-Palacio"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/pulverizador-100-150cc-perfumero-valvula-perfume-100112",
+          "nombre": "Pulverizador 100-150cc.Perfumerovalvula perfume"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/anden-barrendero-100-cari-o-madera-2634",
+          "nombre": "Anden Barrendero 100-Carinomadera"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/algabo-quitaesmalte-100-keratina-4819",
+          "nombre": "Algabo Quitaesmalte 100-keratina"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/algabo-quitaesmalte-100-fortalecedor-2887",
+          "nombre": "Quitaesmalte 100-fortalecedor P.Allen-Algabo"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/alfombra-multiuso-jovalex-100-algodon-4845",
+          "nombre": "Alfombra Multiuso Jovalex 100% algodon"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/rep-toalla-40x58cm-corazon-ncl-2086",
+          "nombre": "Repasador Shiny Waffle 45x70cm.100%algodon"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/rayovac-aa-x4-alcalina-promo-100010",
+          "nombre": "Rayovac AA x4-Alcalina-$1000 off"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/naftalina-200g-100-pura-dbp-optima-canela-587",
+          "nombre": "Naftalina 200g-100%pura-DBP-Optima-Canela"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/brumoline-super-100g-cebo-1566",
+          "nombre": "Brumoline Super 100g.cebo"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/bolsas-100x110-negras-3536",
+          "nombre": "Bolsas 100x110-Negras"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/rexona-efficient-100g-polvo-962",
+          "nombre": "Rexona Efficient 100g.polvo"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/aceiterita-100cc-aceitodo-blanca-3301",
+          "nombre": "Aceiterita 100cc-Aceitodo-blanca"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/escobillon-sg-ramses-1001-799",
+          "nombre": "Escobillon SG Ramses-1001"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/barbijo-x50-desc-caja-100-polipropileno-20-c-u-4902",
+          "nombre": "Barbijo x50-desc.caja 100% polipropileno $180 c-u-disc."
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-8x300m-cono-chico-palacio-100",
+          "nombre": "Papel Higienico 8x300m.cono chico-Palacio-High"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/brumoline-cebo-100g-583",
+          "nombre": "Brumoline Cebo 100g."
+        }
+      ],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-8x300m-cono-chico-palacio-100",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/100_100_0_2026-02-06_16_00_05.jpeg",
+      "nombre_web": "Papel Higienico 8x300m.cono chico-Palacio-High",
+      "precio": "20000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/100_100_0_2026-02-06_16_00_05.jpeg"
+    },
+    {
+      "orden": 23,
+      "sku": "10114",
+      "nombre_listado": "Rollo Aluminio Make 5m.",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/rollo-aluminio-make-5m-10114",
+      "nombre_web": "Rollo Aluminio Make 5m.",
+      "precio": "1800",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/10114_10114_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/10114.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/rollo-aluminio-make-5m-10114",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/10114_10114_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 24,
+      "sku": "4351",
+      "nombre_listado": "Rollo Film adherente 30m-Make",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/rollo-film-adherente-30m-make-4351",
+      "nombre_web": "Rollo Film adherente 30m-Make",
+      "precio": "2100",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/3/4351_4351_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/4351.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/rollo-film-adherente-30m-make-4351",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/3/4351_4351_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 25,
+      "sku": "2444",
+      "nombre_listado": "Ayudin Lav.Original 2L.(25g.)",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-clasica-2l-35g-2444",
+      "nombre_web": "Ayudin Lavandina Original 2L.25g.",
+      "precio": "2600",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/4/2444_2444_0_2026-07-01_16_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-clasica-2l-35g-2444",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/4/2444_2444_0_2026-07-01_16_00_04.jpeg"
+    },
+    {
+      "orden": 26,
+      "sku": "48",
+      "nombre_listado": "Ayudin Lav.Original 1L.(25g.)-PROMO",
+      "estado": "verificado",
+      "http": 200,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-original-1l-25g-promo-48",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-original-1l-25g-promo-48",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/8/48_48_0_2026-07-13_20_00_04.jpeg",
+      "nombre_web": "Ayudin Lavandina Original 1L.25g.-PROMO",
+      "precio": "1250",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/8/48_48_0_2026-07-13_20_00_04.jpeg"
+    },
+    {
+      "orden": 27,
+      "sku": "4590",
+      "nombre_listado": "BIOKITOL 1L.",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/biokitol-1l-4590",
+      "nombre_web": "BIOKITOL 1L.",
+      "precio": "14500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/5/4590_4590_0_2026-08-22_16_00_03.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/biokitol-1l-4590",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/5/4590_4590_0_2026-08-22_16_00_03.jpeg"
+    },
+    {
+      "orden": 28,
+      "sku": "4429",
+      "nombre_listado": "Ayudin Lav.Gel 700ml-Original-PROMO",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-gel-700ml-original-4429",
+      "nombre_web": "Ayudin Lavandina Gel 700ml-Original-PROMO",
+      "precio": "3500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/4/4429_4429_0_2026-09-23_20_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/ayudin-lavandina-gel-700ml-original-4429",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/4/4429_4429_0_2026-09-23_20_00_04.jpeg"
+    },
+    {
+      "orden": 29,
+      "sku": "7605",
+      "nombre_listado": "Bialcohol Fino 70% 5L.Bialcohol",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/alcohol-fino-70-5l-bialcohol-7605",
+      "nombre_web": "Bialcohol Fino 70% 5L.Bialcohol",
+      "precio": "22000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/7/6/7605_7605_0_2026-09-07_20_00_04.jpeg",
+      "imagen_descargada": "imagenes/7605.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/alcohol-fino-70-5l-bialcohol-7605",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/7/6/7605_7605_0_2026-09-07_20_00_04.jpeg"
+    },
+    {
+      "orden": 30,
+      "sku": "7601",
+      "nombre_listado": "Bialcohol Fino 96º 5L.",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/bialcohol-fino-96-5l-7601",
+      "nombre_web": "Bialcohol Fino 96Ao 5L.",
+      "precio": "25000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/7/6/7601_7601_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/7601.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/bialcohol-fino-96-5l-7601",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/7/6/7601_7601_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 31,
+      "sku": "602",
+      "nombre_listado": "Raid Aero Azul Mosquitos 360cc.",
+      "estado": "verificado",
+      "http": 200,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/raid-aero-azul-mosquitos-602",
+      "candidatos": [
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/raid-aero-azul-mosquitos-602",
+          "nombre": "Raid Aero Azul Mosquitos 360cc."
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/varilla-inoxidable-35cm-royco-6020",
+          "nombre": "Varilla Inoxidable 35cm-royco"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/varilla-inoxidable-45cm-royco-6021",
+          "nombre": "Varilla Inoxidable 45cm-royco"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/virola-p-extensor-30-diametro-6022",
+          "nombre": "Virola p-extensor 30 diametro"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/crivea-bloque-mochila-50g-lavanda-6024",
+          "nombre": "Crivea Bloque Mochila x1-lavanda"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/cabo-extensible-aluminio-3x3m-profes-negro-6026",
+          "nombre": "Cabo Extensible Aluminio 3x3m.negroprof-R"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/spa-esponja-oval-c-vegetal-6027",
+          "nombre": "Spa Esponja Oval.c-vegetal"
+        }
+      ],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/raid-aero-azul-mosquitos-602",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/0/602_602_0_2026-09-15_00_00_04.jpeg",
+      "nombre_web": "Raid Aero Azul Mosquitos 360cc.",
+      "precio": "8500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/6/0/602_602_0_2026-09-15_00_00_04.jpeg"
+    },
+    {
+      "orden": 32,
+      "sku": "611",
+      "nombre_listado": "Off Aero Naranja 165/170cc.",
+      "estado": "verificado",
+      "http": 200,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/off-aero-naranja-165-170cc-611",
+      "candidatos": [
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/off-aero-naranja-165-170cc-611",
+          "nombre": "Off Aero Naranja 165-170cc."
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/papel-higienico-4x300m-eccosoft-cono-grande-6110",
+          "nombre": "Papel Higienico 4x200m.Rendipelcono chico 4.5cm"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/cabo-extensible-aluminio-11m-profes-negro-6118",
+          "nombre": "Cabo Extensible Aluminio 11m.negroprof-R"
+        }
+      ],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/off-aero-naranja-165-170cc-611",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/1/611_611_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Off Aero Naranja 165-170cc.",
+      "precio": "6000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/6/1/611_611_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 33,
+      "sku": "424",
+      "nombre_listado": "Lysoform Aero 360/380-Original",
+      "estado": "verificado",
+      "http": 200,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/lysoform-aero-360-380-original-424",
+      "candidatos": [
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/lysoform-aero-360-380-original-424",
+          "nombre": "Lysoform Aero 360-380-Original"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/cesto-acero-inoxidable-spin-360-romyl-4243",
+          "nombre": "Cesto Acero Inoxidable Spin 360Ao-Romyl p-centrifugos"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/osram-led-9w-calida-4246",
+          "nombre": "Ledvance Led 9w-Calida"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/repasador-toalla-gourmet-media-naranja-4241",
+          "nombre": "Repasador Toalla Gourmet Media Naranja"
+        }
+      ],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/lysoform-aero-360-380-original-424",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/2/424_424_0_2026-09-26_12_00_04.jpeg",
+      "nombre_web": "Lysoform Aero 360-380-Original",
+      "precio": "4800",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/2/424_424_0_2026-09-26_12_00_04.jpeg"
+    },
+    {
+      "orden": 34,
+      "sku": "158",
+      "nombre_listado": "Blem Aero 360-Marrón",
+      "estado": "verificado",
+      "http": 200,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/blem-aero-360-marron-158",
+      "candidatos": [
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/blem-aero-360-marron-158",
+          "nombre": "Blem  Aero 360-Marron"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/colgate-90g-anticaries-1584",
+          "nombre": "Colgate 90g.Anticaries"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/bolsas-50x70x50-verdes-1586",
+          "nombre": "Bolsas 50x70x50-verdes"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/sapolio-pulso-toque-full-flores-1588",
+          "nombre": "Sapolio Pulso toque Full-Flores"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/ariel-800ml-pouch-revitacolor-1580",
+          "nombre": "Ariel 800ml.Pouch Radiantes-$1000 off"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/rexona-jabon-liq-antib-250-full-aloe-1587",
+          "nombre": "Rexona Jabon liq.antib.250-Full Aloe-fresh"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/condor-cepillo-dental-trip-1583",
+          "nombre": "Condor Cepillo Dental Trip"
+        }
+      ],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/blem-aero-360-marron-158",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/5/158_158_0_2026-09-24_16_00_04.jpeg",
+      "nombre_web": "Blem  Aero 360-Marron",
+      "precio": "6200",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/5/158_158_0_2026-09-24_16_00_04.jpeg"
+    },
+    {
+      "orden": 35,
+      "sku": "103",
+      "nombre_listado": "Mr Musculo L.Horno Aero 360cc",
+      "estado": "verificado",
+      "http": 200,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/mister-musculo-horno-aero-400cc-103",
+      "candidatos": [
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/mister-musculo-horno-aero-400cc-103",
+          "nombre": "Mister Musculo Limpia Hornos Aero 360cc"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/recipiente-residuos-103l-sanremo-agotar-stock-1992",
+          "nombre": "Recipiente Residuos 103L-SanRemo-agotar stock"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/smell-fresh-aero-papaya-1030",
+          "nombre": "Smell Fresh Aero-Papaya"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/se-al-covid19-espere-llamado-60x20-alto-transito-1031",
+          "nombre": "Senal Covid19-Espere llamado 60x20-Alto transito"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/carro-multiserv-c-bolsa-royco-1034",
+          "nombre": "Carro Multiserv.c-1bolsa-Royco 2011-3112"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/balde-12l-schez-1039",
+          "nombre": "Balde 12L-Ayudin-Poett-Schez"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/felpudo-coco-departamento-bienvenidos-10349",
+          "nombre": "Felpudo Coco  Departamento Bienvenidos"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/virulana-balde-oval-verde-multiuso-10-lts-10351",
+          "nombre": "Virulana Balde oval verde Multiuso 10 Lts."
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/estrella-acondicionador-180-d-p-nutricion-1035",
+          "nombre": "Estrella Acondicionador 180 d-p-Nutricion"
+        }
+      ],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/mister-musculo-horno-aero-400cc-103",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/103_103_0_2026-09-26_12_00_04.jpeg",
+      "nombre_web": "Mister Musculo Limpia Hornos Aero 360cc",
+      "precio": "9500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/103_103_0_2026-09-26_12_00_04.jpeg"
+    },
+    {
+      "orden": 36,
+      "sku": "3314",
+      "nombre_listado": "Make Aromatiz-Rosas",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/make-aromatizante-aero-rosas-3314",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/make-aromatizante-aero-rosas-3314",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/3/3314_3314_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Make Aromatizante Aero Rosas",
+      "precio": "4800",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/3/3314_3314_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/3314.jpg"
+    },
+    {
+      "orden": 37,
+      "sku": "3329",
+      "nombre_listado": "Cif Deterg.5L-Neutro",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/cif-detergente-5l-neutro-3329",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/cif-detergente-5l-neutro-3329",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/3/3329_3329_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Cif Detergente 5L-Neutro",
+      "precio": "27000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/3/3329_3329_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 38,
+      "sku": "5176",
+      "nombre_listado": "Cif Vidrios 5L.",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/cif-vidrios-5l-5176",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/cif-vidrios-5l-5176",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/1/5176_5176_0_2026-06-20_12_00_04.jpeg",
+      "nombre_web": "Cif Vidrios 5L.",
+      "precio": "20000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/1/5176_5176_0_2026-06-20_12_00_04.jpeg"
+    },
+    {
+      "orden": 39,
+      "sku": "1130",
+      "nombre_listado": "8M 5L.Express-Incoloro",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/8m-5l-express-incoloro-1130",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/8m-5l-express-incoloro-1130",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/1/1130_1130_0_2026-08-04_16_00_03.jpeg",
+      "nombre_web": "8M 5L.Express-Incoloro",
+      "precio": "35000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/1/1130_1130_0_2026-08-04_16_00_03.jpeg"
+    },
+    {
+      "orden": 40,
+      "sku": "100147",
+      "nombre_listado": "Cif Crema 2L.(3K)",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/cif-crema-2l-3k-100147",
+      "nombre_web": "Cif Crema 2L.3K",
+      "precio": "16500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/100147_100147_0_2025-11-11_11_12_17.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/cif-crema-2l-3k-100147",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/100147_100147_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 41,
+      "sku": "5010",
+      "nombre_listado": "1/2 Naranja Paño Mult.x3-38x40(amarillo)",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/media-naranja-pa-o-mult-x3-38x40-5010",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media-naranja-pa-o-mult-x3-38x40-5010",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/0/5010_5010_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Media Naranja Pano Mult.x3-38x40amarillo",
+      "precio": "2800",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/0/5010_5010_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/5010.jpg"
+    },
+    {
+      "orden": 42,
+      "sku": "10090",
+      "nombre_listado": "Franela Clásica 1/2 Naranja",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/franela-clasica-media-naranja-10090",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/franela-clasica-media-naranja-10090",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/10090_10090_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Franela Clasica Media Naranja",
+      "precio": "2900",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/10090_10090_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 43,
+      "sku": "538",
+      "nombre_listado": "Mortimer Cuadriculada esponja",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/mortimer-cuadriculada-clasica-538",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/mortimer-cuadriculada-clasica-538",
+      "imagen_sitemap": "",
+      "nombre_web": "Mortimer Cuadriculada esponja",
+      "precio": "1500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/3/538_538_0_2026-04-20_20_00_05.jpeg"
+    },
+    {
+      "orden": 44,
+      "sku": "1561",
+      "nombre_listado": "Mortimer Esp.Doble Cara",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/mortimer-esp-doble-cara-1561",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/mortimer-esp-doble-cara-1561",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/5/1561_1561_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Mortimer Esp.Doble Cara",
+      "precio": "2600",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/5/1561_1561_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 45,
+      "sku": "5487",
+      "nombre_listado": "Make Esp.Inoxidable 50g.",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/make-esponja-inoxidable-50g-5487",
+      "nombre_web": "Make Esponja Inoxidable 50g.",
+      "precio": "1500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/4/5487_5487_0_2025-11-11_11_12_17.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/make-esponja-inoxidable-50g-5487",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/4/5487_5487_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 46,
+      "sku": "524",
+      "nombre_listado": "Virulana Rollitos x10-70g.",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/virulana-rollitos-x10-70g-524",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/virulana-rollitos-x10-70g-524",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/2/524_524_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Virulana Rollitos x10-70g.",
+      "precio": "2300",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/2/524_524_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 47,
+      "sku": "55",
+      "nombre_listado": "Make Guante Soft-Mediano",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/make-guante-soft-mediano-55",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/make-guante-soft-mediano-55",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/5/55_55_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Make Guante Soft-Mediano",
+      "precio": "1650",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/5/55_55_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 48,
+      "sku": "733",
+      "nombre_listado": "MAPA G.Plisse 7½-8 Med.",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/mapa-guantes-plisse-7-8-med-733",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/mapa-guantes-plisse-7-8-med-733",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/7/3/733_733_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "MAPA Guantes Plisse 7A 1-2 -8 Med.",
+      "precio": "3900",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/7/3/733_733_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 49,
+      "sku": "1434",
+      "nombre_listado": "Pala Aeropuerto Romyl c/escoba",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/pala-aeropuerto-romyl-c-escoba-1434",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/pala-aeropuerto-romyl-c-escoba-1434",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/4/1434_1434_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Pala Aeropuerto Romyl c-escoba",
+      "precio": "12500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/4/1434_1434_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/1434.jpg"
+    },
+    {
+      "orden": 50,
+      "sku": "1758",
+      "nombre_listado": "Balde 12L Romyl",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/balde-12l-romyl-task-1758",
+      "nombre_web": "Balde 12L Romyl",
+      "precio": "5500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/7/1758_1758_0_2026-05-18_14_02_26.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/balde-12l-romyl-task-1758",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/7/1758_1758_0_2026-05-18_14_02_26.jpeg"
+    },
+    {
+      "orden": 51,
+      "sku": "10098",
+      "nombre_listado": "Clean-tex T.Piso Bco.60x70 Consorcio",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/clean-tex-trapo-de-piso-blanco-60x70-consorcio-10098",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/clean-tex-trapo-de-piso-blanco-60x70-consorcio-10098",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/10098_10098_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Clean-tex Trapo de Piso Blanco 60x70 Consorcio",
+      "precio": "3000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/10098_10098_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/10098.jpg"
+    },
+    {
+      "orden": 52,
+      "sku": "3747",
+      "nombre_listado": "Balde Oval 14L.c/escurr-Romyl",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/balde-oval-14l-c-escurr-romyl-samantha-3747",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/balde-oval-14l-c-escurr-romyl-samantha-3747",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/7/3747_3747_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Balde Oval 14L.c-escurr-Romyl",
+      "precio": "15000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/7/3747_3747_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/3747.jpg"
+    },
+    {
+      "orden": 53,
+      "sku": "3775",
+      "nombre_listado": "Trapo Piso Premium 60x56-Palacio-PROMO",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/trapo-piso-premium-60x56cm-palacio-3775",
+      "nombre_web": "Trapo Piso Premium 60x56cm.Palacio-PROMO",
+      "precio": "4500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/7/3775_3775_0_2026-08-18_16_00_03.jpeg",
+      "imagen_descargada": "imagenes/3775.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/trapo-piso-premium-60x56cm-palacio-3775",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/7/3775_3775_0_2026-08-18_16_00_03.jpeg"
+    },
+    {
+      "orden": 54,
+      "sku": "3750",
+      "nombre_listado": "Rejilla Premium 40x30cm.Palacio-PROMO",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/rejilla-premium-40x30cm-palacio-3750",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/rejilla-premium-40x30cm-palacio-3750",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/7/3750_3750_0_2026-08-18_16_00_03.jpeg",
+      "nombre_web": "Rejilla Premium 40x30cm.Palacio-PROMO",
+      "precio": "1800",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/7/3750_3750_0_2026-08-18_16_00_03.jpeg",
+      "imagen_descargada": "imagenes/3750.jpg"
+    },
+    {
+      "orden": 55,
+      "sku": "3069",
+      "nombre_listado": "Granby Líq.Ropa 3L.d/p.Rosas",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/granby-liq-ropa-3l-d-p-rosas-3069",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/granby-liq-ropa-3l-d-p-rosas-3069",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/0/3069_3069_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Granby Liq.Ropa 3L.d-p.Rosas",
+      "precio": "9500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/0/3069_3069_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 56,
+      "sku": "1660",
+      "nombre_listado": "Ariel 3L.Pouch-Platinum-PROMO",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/ariel-liq-2-7l-pouch-maxima-limpieza-1660",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/ariel-liq-2-7l-pouch-maxima-limpieza-1660",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/6/1660_1660_0_2026-08-03_16_00_03.jpeg",
+      "nombre_web": "Ariel Liq.3L.Pouch-Platinum",
+      "precio": "12000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/6/1660_1660_0_2026-08-03_16_00_03.jpeg"
+    },
+    {
+      "orden": 57,
+      "sku": "2111",
+      "nombre_listado": "Vivere 3L.Clásico-d/pack",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/vivere-3l-clasico-d-pack-2111",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/vivere-3l-clasico-d-pack-2111",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/1/2111_2111_0_2026-05-18_14_02_26.jpeg",
+      "nombre_web": "Vivere 3L.Clasico-d-pack",
+      "precio": "12000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/1/2111_2111_0_2026-05-18_14_02_26.jpeg"
+    },
+    {
+      "orden": 58,
+      "sku": "2110",
+      "nombre_listado": "Comfort 3L-classic-d/pack",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/comfort-3l-classic-d-pack-2110",
+      "nombre_web": "Comfort 3L-classic-d-pack",
+      "precio": "13500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/1/2110_2110_0_2026-05-26_16_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/comfort-3l-classic-d-pack-2110",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/1/2110_2110_0_2026-05-26_16_00_04.jpeg"
+    },
+    {
+      "orden": 59,
+      "sku": "112",
+      "nombre_listado": "Bolitas Mingitorio 200g.Segovia",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/bolitas-mingitorio-200g-112",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/bolitas-mingitorio-200g-112",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/1/112_112_0_2026-03-17_16_00_05.jpeg",
+      "nombre_web": "Bolitas Mingitorio 200g.Segovia",
+      "precio": "2500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/1/112_112_0_2026-03-17_16_00_05.jpeg"
+    },
+    {
+      "orden": 60,
+      "sku": "2845",
+      "nombre_listado": "Duke Hotel 20g.x240-envuelto",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/duke-hotel-20g-x240-envuelto-2845",
+      "nombre_web": "Duke Hotel 20g.x240-envuelto",
+      "precio": "65000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/8/2845_2845_0_2025-12-22_20_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/duke-hotel-20g-x240-envuelto-2845",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/8/2845_2845_0_2025-12-22_20_00_04.jpeg"
+    },
+    {
+      "orden": 61,
+      "sku": "5400",
+      "nombre_listado": "Suave Sh.5L.crema nutrición(coco/proteína)",
+      "estado": "sin_coincidencia",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/catalogsearch/result/?q=5400",
+      "candidatos": []
+    },
+    {
+      "orden": 62,
+      "sku": "3807",
+      "nombre_listado": "Suave Acond.5L.crema nutrición(coco/proteína)",
+      "estado": "sin_coincidencia",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/catalogsearch/result/?q=3807",
+      "candidatos": []
+    },
+    {
+      "orden": 63,
+      "sku": "1927",
+      "nombre_listado": "Sedal Sh.sachet x24-ceramidas",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/sedal-shampoo-sachet-x24-ceramidas-1927",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/sedal-shampoo-sachet-x24-ceramidas-1927",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/9/1927_1927_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Sedal Shampoo sachet x24-ceramidas",
+      "precio": "6600",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/9/1927_1927_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 64,
+      "sku": "2746",
+      "nombre_listado": "Sedal Acond.sachetx24-ceramidas",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/sedal-acondicionador-sachetx24-ceramidas-2746",
+      "nombre_web": "Sedal Acondicionador sachetx24-ceramidas",
+      "precio": "6600",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/7/2746_2746_0_2025-11-11_11_12_17.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/sedal-acondicionador-sachetx24-ceramidas-2746",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/7/2746_2746_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 65,
+      "sku": "5014",
+      "nombre_listado": "BOLSAS 70x100-Negras reforzadas",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-negras-5014",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-negras-5014",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/0/5014_5014_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "BOLSAS 70x100-Negras reforzadas",
+      "precio": "190",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/0/5014_5014_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 66,
+      "sku": "3521",
+      "nombre_listado": "Bolsas 70x100 Verdes",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-verdes-3521",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/bolsas-70x100-verdes-3521",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/5/3521_3521_0_2026-03-02_16_00_05.jpeg",
+      "nombre_web": "Bolsas 70x100 Verdes",
+      "precio": "230",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/5/3521_3521_0_2026-03-02_16_00_05.jpeg"
+    },
+    {
+      "orden": 67,
+      "sku": "1099",
+      "nombre_listado": "Osram Dulux MiniTwist 20w-blanca-disc.",
+      "estado": "sin_coincidencia",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/catalogsearch/result/?q=1099",
+      "candidatos": []
+    },
+    {
+      "orden": 68,
+      "sku": "2641",
+      "nombre_listado": "Secavidr.inox.35-royco",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/secavidrios-inoxidable-25-royco-2641",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/secavidrios-inoxidable-25-royco-2641",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/6/2641_2641_0_2025-11-11_11_12_17.jpeg",
+      "discrepancia": false,
+      "nombre_web": "Secavidrios Inoxidable 35-royco",
+      "precio": "18000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/6/2641_2641_0_2025-11-11_11_12_17.jpeg",
+      "nota": "La URL dice 25 pero el t?tulo de la ficha confirma 35 cm, igual que el listado.",
+      "imagen_descargada": "imagenes/2641.jpg"
+    },
+    {
+      "orden": 69,
+      "sku": "5062",
+      "nombre_listado": "Secavidrios 3en1 +Rociador",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/secavidrios-3en1-rociador-5062",
+      "nombre_web": "Secavidrios 3en1 +Rociador",
+      "precio": "9900",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/0/5062_5062_0_2026-03-28_12_00_04.jpeg",
+      "imagen_descargada": "imagenes/5062.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/secavidrios-3en1-rociador-5062",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/0/5062_5062_0_2026-03-28_12_00_04.jpeg"
+    },
+    {
+      "orden": 70,
+      "sku": "3166",
+      "nombre_listado": "Lavador 45c/abras.Completo-Royco",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/lavador-45c-abras-completo-royco-3166",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/lavador-45c-abras-completo-royco-3166",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/1/3166_3166_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Lavador 45c-abras.Completo-Royco",
+      "precio": "17000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/1/3166_3166_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/3166.jpg"
+    },
+    {
+      "orden": 71,
+      "sku": "4257",
+      "nombre_listado": "Cabo Ext.Alum.2x2-make(azul)liviano",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/cabo-extensible-aluminio-2x2-make-azul-4257",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/cabo-extensible-aluminio-2x2-make-azul-4257",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/2/4257_4257_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Cabo Extensible Aluminio 2x2-makeazulliviano",
+      "precio": "45000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/2/4257_4257_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/4257.jpg"
+    },
+    {
+      "orden": 72,
+      "sku": "2694",
+      "nombre_listado": "Cabo Ext.Alum.3x1.50m.(negro)prof-R",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/cabo-extensible-aluminio-3x1-50m-profes-negro-2694",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/cabo-extensible-aluminio-3x1-50m-profes-negro-2694",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/6/2694_2694_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Cabo Extensible Aluminio 3x1.50m.negroprof-R",
+      "precio": "60000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/6/2694_2694_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/2694.jpg"
+    },
+    {
+      "orden": 73,
+      "sku": "2634",
+      "nombre_listado": "Andén Barrendero 100-Cariño(madera)",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/anden-barrendero-100-cari-o-madera-2634",
+      "nombre_web": "Anden Barrendero 100-Carinomadera",
+      "precio": "26000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/6/2634_2634_0_2025-11-11_11_12_17.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/anden-barrendero-100-cari-o-madera-2634",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/6/2634_2634_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 74,
+      "sku": "832",
+      "nombre_listado": "Anden Cerda 80cm",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/anden-cerda-80cm-832",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/anden-cerda-80cm-832",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/8/3/832_832_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Anden Cerda 80cm",
+      "precio": "30000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/8/3/832_832_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 75,
+      "sku": "1810",
+      "nombre_listado": "Secador Alum.100cm-piso",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/secador-aluminio-100cm-piso-1810",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/secador-aluminio-100cm-piso-1810",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/8/1810_1810_0_2026-06-02_16_00_05.jpeg",
+      "nombre_web": "Secador Aluminio 100cm-piso*",
+      "precio": "37500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/8/1810_1810_0_2026-06-02_16_00_05.jpeg",
+      "imagen_descargada": "imagenes/1810.jpg"
+    },
+    {
+      "orden": 76,
+      "sku": "100204",
+      "nombre_listado": "Fiorentina Secador Aqua 40cm.Plus-3M",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/fiorentina-secador-aqua-40cm-plus-3m-100204",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/fiorentina-secador-aqua-40cm-plus-3m-100204",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/100204_100204_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Fiorentina Secador Aqua 40cm.Plus-3M",
+      "precio": "7000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/100204_100204_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/100204.jpg"
+    },
+    {
+      "orden": 77,
+      "sku": "71",
+      "nombre_listado": "Cabo Madera 1.30 C/rosca-Pino",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-30-c-rosca-71",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-30-c-rosca-71",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/7/1/71_71_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Cabo Madera 1.30 C-rosca-Pino",
+      "precio": "2000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/7/1/71_71_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 78,
+      "sku": "1934",
+      "nombre_listado": "Cabo Madera 1.50m.c/rosca",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-50m-natural-1934",
+      "nombre_web": "Cabo Madera 1.50m.c-rosca",
+      "precio": "2500",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/9/1934_1934_0_2026-06-18_20_00_05.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/cabo-madera-1-50m-natural-1934",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/9/1934_1934_0_2026-06-18_20_00_05.jpeg"
+    },
+    {
+      "orden": 79,
+      "sku": "3910",
+      "nombre_listado": "Vileda Easy Wring Balde",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/vileda-easy-wring-balde-promo-3910",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/vileda-easy-wring-balde-promo-3910",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/9/3910_3910_0_2026-08-31_20_00_03.jpeg",
+      "nombre_web": "Vileda Easy Wring Balde",
+      "precio": "99990",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/9/3910_3910_0_2026-08-31_20_00_03.jpeg"
+    },
+    {
+      "orden": 80,
+      "sku": "849",
+      "nombre_listado": "Iberia Pronto Turbo Matic Balde Mop",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/iberia-pronto-turbo-matic-completo-balde-mop-849",
+      "nombre_web": "Iberia Pronto Turbo Matic Balde Mop",
+      "precio": "95000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/8/4/849_849_0_2026-05-26_16_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/iberia-pronto-turbo-matic-completo-balde-mop-849",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/8/4/849_849_0_2026-05-26_16_00_04.jpeg"
+    },
+    {
+      "orden": 81,
+      "sku": "4195",
+      "nombre_listado": "Señal Piso Mojado Busgran/Rubber",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/se-al-piso-mojado-busgran-rubber-4195",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/se-al-piso-mojado-busgran-rubber-4195",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/1/4195_4195_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Senal Piso Mojado Busgran-Rubber",
+      "precio": "21000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/1/4195_4195_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 82,
+      "sku": "5116",
+      "nombre_listado": "Cono Señalador Caution Amarillo-M",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/cono-se-alador-caution-amarillo-m-disc-5116",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/cono-se-alador-caution-amarillo-m-disc-5116",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/1/5116_5116_0_2026-07-21_00_00_05.jpeg",
+      "nombre_web": "Cono Senalador Caution Amarillo-M",
+      "precio": "18000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/1/5116_5116_0_2026-07-21_00_00_05.jpeg"
+    },
+    {
+      "orden": 83,
+      "sku": "1226",
+      "nombre_listado": "Balde Mop-Extralimp(centrifugo acero)2mopas",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/balde-mop-extralimp-centrifugo-acero-2-mopas-1226",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/balde-mop-extralimp-centrifugo-acero-2-mopas-1226",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/2/1226_1226_0_2026-08-24_20_00_03.jpeg",
+      "nombre_web": "Balde Mop-Extralimpcentrifugo acero2 mopas",
+      "precio": "45000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/2/1226_1226_0_2026-08-24_20_00_03.jpeg",
+      "imagen_descargada": "imagenes/1226.jpg"
+    },
+    {
+      "orden": 84,
+      "sku": "122",
+      "nombre_listado": "Iberia Windomatic(limpiavidrios)Todo en uno",
+      "estado": "sin_coincidencia",
+      "http": 200,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/catalogsearch/result/?q=122",
+      "candidatos": [
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/iberia-turbo-facil-360-completo-balde-mop-122",
+          "nombre": "Iberia WindomaticlimpiavidriosTodo en uno"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/lumilagro-termo-molina-campos-1l-1220",
+          "nombre": "Lumilagro Termo Molina Campos 1L."
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/spa-jabon-liquido-full-300ml-flores-blancas-1223",
+          "nombre": "Spa Jabon liquido Full 300ml-flores blancas"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/balde-mop-extralimp-centrifugo-acero-2-mopas-1226",
+          "nombre": "Balde Mop-Extralimpcentrifugo acero2 mopas"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/bolsa-aspiradora-exxelia-clario-disc-1227",
+          "nombre": "Bolsa Asp.Electrolux Berry c-u.D7"
+        },
+        {
+          "url": "https://www.elpalaciodelalimpieza.com.ar/ala-polvo-matic-blancos-2-5-kg-exclusivo-prendas-blancas-1224",
+          "nombre": "Ala Polvo Matic Blancos 2,5 Kg.exclusivo prendas blancas"
+        }
+      ],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/iberia-turbo-facil-360-completo-balde-mop-122",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/2/122_122_0_2026-09-12_16_00_04.jpeg",
+      "discrepancia": true
+    },
+    {
+      "orden": 85,
+      "sku": "6732",
+      "nombre_listado": "Rec.60L.Ecológico t/vaivén-Kendy Gris(Basura)",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/recipiente-60l-ecologico-t-vaiven-kendy-promo-6732",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/recipiente-60l-ecologico-t-vaiven-kendy-promo-6732",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/7/6732_6732_0_2026-06-05_20_00_05.jpeg",
+      "nombre_web": "Recipiente 60L.Ecologico t-vaiven-Kendy-GrisBasura",
+      "precio": "80000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/6/7/6732_6732_0_2026-06-05_20_00_05.jpeg",
+      "imagen_descargada": "imagenes/6732.jpg"
+    },
+    {
+      "orden": 86,
+      "sku": "6733",
+      "nombre_listado": "Rec.60L.Ecológico t/vaivén-Kendy Verde(reciclable)",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/recipiente-60l-ecologico-t-vaiven-kendy-verde-recicla-6733",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/recipiente-60l-ecologico-t-vaiven-kendy-verde-recicla-6733",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/6/7/6733_6733_0_2026-06-05_20_00_05.jpeg",
+      "nombre_web": "Recipiente 60L.Ecologico t-vaiven-Kendy Verderecicla",
+      "precio": "80000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/6/7/6733_6733_0_2026-06-05_20_00_05.jpeg",
+      "imagen_descargada": "imagenes/6733.jpg"
+    },
+    {
+      "orden": 87,
+      "sku": "3778",
+      "nombre_listado": "Contenedor c/ruedas 120L.azul",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/contenedor-industrial-c-ruedas-120l-azul-3778",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/contenedor-industrial-c-ruedas-120l-azul-3778",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/7/3778_3778_0_2026-03-25_16_00_05.jpeg",
+      "nombre_web": "Contenedor Industrial c-ruedas 120L.azul",
+      "precio": "200000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/7/3778_3778_0_2026-03-25_16_00_05.jpeg",
+      "imagen_descargada": "imagenes/3778.jpg"
+    },
+    {
+      "orden": 88,
+      "sku": "3783",
+      "nombre_listado": "Contenedor c/ruedas 120L.Negro",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/contenedor-industrial-c-ruedas-120l-negro-3783",
+      "nombre_web": "Contenedor Industrial c-ruedas 120L.Negro",
+      "precio": "200000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/7/3783_3783_0_2026-03-25_16_00_05.jpeg",
+      "imagen_descargada": "imagenes/3783.jpg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/contenedor-industrial-c-ruedas-120l-negro-3783",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/7/3783_3783_0_2026-03-25_16_00_05.jpeg"
+    },
+    {
+      "orden": 89,
+      "sku": "3776",
+      "nombre_listado": "Contenedor c/ruedas 120L.Rojo",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/contenedor-industrial-c-ruedas-120l-rojo-3776",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/contenedor-industrial-c-ruedas-120l-rojo-3776",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/7/3776_3776_0_2026-03-25_16_00_05.jpeg",
+      "nombre_web": "Contenedor Industrial c-ruedas 120L.Rojo",
+      "precio": "200000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/7/3776_3776_0_2026-03-25_16_00_05.jpeg",
+      "imagen_descargada": "imagenes/3776.jpg"
+    },
+    {
+      "orden": 90,
+      "sku": "3998",
+      "nombre_listado": "Contenedor c/ruedas 120L.verde",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/contenedor-industrial-120l-3998",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/contenedor-industrial-120l-3998",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/9/3998_3998_0_2026-03-25_16_00_05.jpeg",
+      "nombre_web": "Contenedor Industrial c-ruedas 120L.",
+      "precio": "200000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/9/3998_3998_0_2026-03-25_16_00_05.jpeg",
+      "imagen_descargada": "imagenes/3998.jpg"
+    },
+    {
+      "orden": 91,
+      "sku": "2167",
+      "nombre_listado": "Disp.Jabón Liq.plást.tecla-palacio",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liq-plast-palacio-2167",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liq-plast-palacio-2167",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/1/2167_2167_0_2025-12-05_20_00_04.jpeg",
+      "nombre_web": "Dispenser Jabon Liq.plast.tecla-palacio",
+      "precio": "14000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/1/2167_2167_0_2025-12-05_20_00_04.jpeg"
+    },
+    {
+      "orden": 92,
+      "sku": "2595",
+      "nombre_listado": "Disp.Jabón Líq.inoxidable",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liquido-inoxidable-2595",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/dispenser-jabon-liquido-inoxidable-2595",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/5/2595_2595_0_2025-11-12_16_00_05.jpeg",
+      "nombre_web": "Dispenser Jabon Liquido inoxidable",
+      "precio": "75000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/5/2595_2595_0_2025-11-12_16_00_05.jpeg"
+    },
+    {
+      "orden": 93,
+      "sku": "5340",
+      "nombre_listado": "Disp.Toalla interc.blanco(1carga)PP",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-visor-blanco-1carga-5340",
+      "nombre_web": "Dispenser Toalla interc.blanco1cargaPP",
+      "precio": "16000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/3/5340_5340_0_2025-12-05_20_00_04.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-visor-blanco-1carga-5340",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/3/5340_5340_0_2025-12-05_20_00_04.jpeg"
+    },
+    {
+      "orden": 94,
+      "sku": "100104",
+      "nombre_listado": "Disp.Toalla interc.inoxidable",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-inoxidable-100104",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/dispenser-toalla-interc-inoxidable-100104",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/100104_100104_0_2025-11-12_16_00_05.jpeg",
+      "nombre_web": "Dispenser Toalla interc.inoxidable",
+      "precio": "78000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/100104_100104_0_2025-11-12_16_00_05.jpeg"
+    },
+    {
+      "orden": 95,
+      "sku": "3675",
+      "nombre_listado": "Disp.Hig.Jumbo 600m.Evolution blanco Polipropileno",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/dispenser-higienico-jumbo-600m-evolution-blanco-polipropilen-3675",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/dispenser-higienico-jumbo-600m-evolution-blanco-polipropilen-3675",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/6/3675_3675_0_2026-06-17_20_00_05.jpeg",
+      "nombre_web": "Dispenser Higienico Jumbo 600m.Evolution blanco Polipropilen",
+      "precio": "20000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/6/3675_3675_0_2026-06-17_20_00_05.jpeg",
+      "imagen_descargada": "imagenes/3675.jpg"
+    },
+    {
+      "orden": 96,
+      "sku": "2687",
+      "nombre_listado": "Disp.Acero Inox.Higienico 600m.",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/disp-acero-inox-higienico-600m-2687",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/disp-acero-inox-higienico-600m-2687",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/2/6/2687_2687_0_2026-08-25_16_00_03.jpeg",
+      "nombre_web": "Disp.Acero Inox.Higienico 600m.",
+      "precio": "105000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/2/6/2687_2687_0_2026-08-25_16_00_03.jpeg"
+    },
+    {
+      "orden": 97,
+      "sku": "4329",
+      "nombre_listado": "Carro Portaelementos-make",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/carro-portaelementos-make-4329",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/carro-portaelementos-make-4329",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/4/3/4329_4329_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Carro Portaelementos-make",
+      "precio": "250000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/4/3/4329_4329_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 98,
+      "sku": "3811",
+      "nombre_listado": "Carro Lavanderia c/bolsa-make",
+      "estado": "verificado",
+      "url": "https://www.elpalaciodelalimpieza.com.ar/carro-lavanderia-c-bolsa-make-3811",
+      "nombre_web": "Carro Lavanderia c-bolsa-make",
+      "precio": "280000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/8/3811_3811_0_2026-07-28_20_00_03.jpeg",
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/carro-lavanderia-c-bolsa-make-3811",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/8/3811_3811_0_2026-07-28_20_00_03.jpeg"
+    },
+    {
+      "orden": 99,
+      "sku": "3619",
+      "nombre_listado": "Carro Multifunción-make",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/carro-multifuncion-make-3619",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/carro-multifuncion-make-3619",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/3/6/3619_3619_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Carro Multifuncion-make",
+      "precio": "280000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/3/6/3619_3619_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 100,
+      "sku": "5803",
+      "nombre_listado": "Carro 20L.doble c/prensa-Royco",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/carro-20l-doble-c-prensa-royco-5803",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/carro-20l-doble-c-prensa-royco-5803",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/5/8/5803_5803_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Carro 20L.doble c-prensa-Royco",
+      "precio": "130000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/5/8/5803_5803_0_2025-11-11_11_12_17.jpeg"
+    },
+    {
+      "orden": 101,
+      "sku": "100191",
+      "nombre_listado": "Felpudo Print Welcome 30x70cm.VL FG",
+      "estado": "verificado",
+      "http": 429,
+      "url": "https://www.elpalaciodelalimpieza.com.ar/felpudo-captor-print-welcome-30x70cm-vl-fg-100191",
+      "candidatos": [],
+      "url_sitemap": "https://www.elpalaciodelalimpieza.com.ar/felpudo-captor-print-welcome-30x70cm-vl-fg-100191",
+      "imagen_sitemap": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/0/100191_100191_0_2025-11-11_11_12_17.jpeg",
+      "nombre_web": "Felpudo Captor Print Welcome 30x70cm.VL FG",
+      "precio": "18000",
+      "imagen_web": "https://www.elpalaciodelalimpieza.com.ar/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/1/0/100191_100191_0_2025-11-11_11_12_17.jpeg",
+      "imagen_descargada": "imagenes/100191.jpg"
+    }
+  ],
+  "imagenes_externas": [
+    {
+      "sku": "1099",
+      "fuente": "https://global.microless.com/product/osram-dulux-mini-twist-e27-fluorescent-bulb-20w-1300lm-865-dlxmt20w865e27uae/",
+      "imagen": "https://microless.com/cdn/products/04226f29e4247f3bdc95eaa847ebf6fb-hi.jpg",
+      "motivo": "Sin ficha en Palacio; se enlaza al inicio y se deja el precio a consultar."
+    },
+    {
+      "sku": "122",
+      "fuente": "https://www.tienda.iberiahogar.com.ar/productos/nuevo-windomatic-limpiavidrios-todo-en-uno-15rrt/",
+      "imagen": "http://acdn-us.mitiendanube.com/stores/122/609/products/portada_diseno-ef969c0aac5560780317853379137336-640-0.webp",
+      "motivo": "El SKU 122 de Palacio corresponde a un balde. Se respeta el limpiavidrios Windomatic del listado y se enlaza al inicio."
+    }
+  ]
+}

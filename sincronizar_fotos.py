@@ -42,17 +42,22 @@ def sincronizar():
         return
 
     skus_existentes = set()
+    imagenes_asignadas = set()
     for row in range(2, ws.max_row + 1):
         val = ws.cell(row, sku_col).value
         if val is not None and str(val).strip() != "":
             skus_existentes.add(str(val).strip())
+        if "Imagen" in headers:
+            imagen = ws.cell(row, headers["Imagen"]).value
+            if imagen:
+                imagenes_asignadas.add(Path(str(imagen).replace("\\", "/")).name.casefold())
 
     # Buscar imágenes en imagenes/
     imagenes_encontradas = []
     for f in IMG_DIR.iterdir():
         if f.is_file() and f.suffix.lower() in VALID_EXTS:
             sku_candidato = f.stem
-            if sku_candidato not in skus_existentes:
+            if sku_candidato not in skus_existentes and f.name.casefold() not in imagenes_asignadas:
                 imagenes_encontradas.append((sku_candidato, f))
 
     if not imagenes_encontradas:
@@ -70,19 +75,13 @@ def sincronizar():
     nuevas_filas = 0
     next_row = ws.max_row + 1
 
-    # Asegurarnos de que next_row sea realmente la primera fila vacía
-    while ws.cell(next_row - 1, sku_col).value is None and next_row > 2:
-        next_row -= 1
-    if ws.cell(next_row, sku_col).value is not None:
-        next_row += 1
-
     for sku, f in imagenes_encontradas:
         rel_img = f"imagenes/{f.name}"
         nombre = f"Producto {sku}"
         desc = ""
         precio = 0
         presentacion = ""
-        url_slug = sku
+        url_slug = ""
 
         if resp in ("s", "si", "sí", "y", "yes"):
             print(f"\n--- Cargando SKU {sku} ({f.name}) ---")

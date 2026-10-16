@@ -1,0 +1,48 @@
+{
+  "productos": 101,
+  "imagenes_validas": 101,
+  "sin_ficha_web": [
+    {
+      "sku": "5400",
+      "nombre": "Suave Shampoo Nutrición Coco 5L"
+    },
+    {
+      "sku": "3807",
+      "nombre": "Suave Acondicionador Nutrición Coco 5L"
+    },
+    {
+      "sku": "122",
+      "nombre": "Iberia WindoMatic Limpiavidrios"
+    },
+    {
+      "sku": "",
+      "nombre": "Felpudos personalizados"
+    }
+  ],
+  "pruebas_unitarias": 4,
+  "formatos": {
+    "2_columnas": {
+      "paginas": 19,
+      "orden_correcto": true,
+      "enlaces_productos_correctos": true,
+      "enlaces_totales_sin_portada": 376,
+      "condiciones_completas": true,
+      "sin_imagenes_faltantes": true
+    },
+    "1_columna": {
+      "paginas": 36,
+      "orden_correcto": true,
+      "enlaces_productos_correctos": true,
+      "condiciones_completas": true,
+      "sin_imagenes_faltantes": true
+    }
+  },
+  "cambios_cliente": {
+    "1099": {
+      "mostrar": "NO"
+    },
+    "122": {
+      "precio": 52000
+    }
+  }
+}
